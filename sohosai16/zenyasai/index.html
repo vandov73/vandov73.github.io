@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>前夜祭オープニングセレモニー・企画アピール-雙峰祭公式webサイト</title>
+</head>
+
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <div style="padding-top:60px;margin-top:-60px;" id="zenyasai_ceremony"></div>
+            <h2>前夜祭セレモニー</h2>
+            <p>企画参加団体による華やかなパフォーマンスをお届けします。<br> 「和」というテーマに沿ったステージとなっております。
+                <br> ぜひご覧下さい！！
+            </p>
+            <h3 id="date-hold">日時・場所</h3>
+            <dl>
+                <dt>日時</dt>
+                <dd>11月4日（金） </dd>
+                <dd>オープニング部門18:15～18:55</dd>
+                <dd>エンディング部門20:25～20:30</dd>
+                <dt>場所</dt>
+                <dd>UNITEDステージ</dd>
+            </dl>
+            <h3>オープニング部門</h3>
+            <h4>筑波大学斬桐舞</h4>
+            <p>私たち斬桐舞は年齢、性別、国籍、障害・経験の有無にかかわらず、みんなでよさこいを楽しむことをコンセプトに活動しています。この学園祭が現執行代最後の演舞になります。前夜祭、本祭2日目のUNITEDステージ、そして後夜祭の3つのステージできりきりらしい笑顔と元気にあふれる演舞をお届けします。1年間の集大成をぜひご覧ください！</p>
+            <h4>筑波能・狂言研究会</h4>
+            <p>今回わたしたちが舞う演目(えんもく)は土蜘蛛(つちぐも)です。これは病床(びょうしょう)に伏(ふ)している源頼光(みなもとのよりみつ)に、妖怪土蜘蛛が襲いかかってきますが、頼光の刀『膝丸』(ひざまる)で退治してしまうという物語です。この機会にみなさんに能の魅力を感じていただければ幸いです！</p>
+            <h4>筑波大学落語研究会</h4>
+            <p>筑波大学落語研究会代表、120世紀少年です。石の広場に爆笑の渦を巻き起こします！ぜひ会場にお越しください！！</p>
+            <h4>筑波大学ダブルダッチサークルpurplume</h4>
+            <p>今回のテーマ『和』は私たちダブルダッチサークルにとって新しい挑戦ですが、みなさんを盛り上げるよう精一杯頑張りますので、応援よろしくお願いします！！</p>
+            <h4>筑波大学アカペラサークルDoo-Wop</h4>
+            <p>我々は声のみで音楽を奏でる、『アカペラ』で様々なジャンルの曲を演奏しています。前夜祭ではサカナクションの『新宝島』、whiteberryの『夏祭り』を披露いたします。男性6人でお届けするハーモニーを、ぜひ会場でお楽しみください！！</p>
+            <h3>エンディング部門</h3>
+            <p>全前夜祭企画参加者による最高のフィナーレ</p>
+            <div style="padding-top:60px;margin-top:-60px;" id="kikaku_appeal"></div>
+            <h2>企画アピール</h2>
+            <p>企画団体による企画宣伝フェスティバル！<br> 30秒間に込められた熱い思い…！
+            </p>
+            <h3>日時・場所</h3>
+            <dl>
+                <dt>日時</dt>
+                <dd>11月4日（金）18:55～19:25</dd>
+                <dt>場所</dt>
+                <dd>UNITEDステージ</dd>
+            </dl>
+
+            <h3>参加企画</h3>
+
+            <div class="zenyasai-area">
+                <div class="zenyasai-image">
+                    <img src="images/stage.jpg">
+                </div>
+                <div class="zenyasai-d">
+
+                    <dl>
+                        <dt>ステージ企画</dt>
+                        <dd>筑波大学学園祭ライブ2016</dd>
+                        <dd>purplume ダブルダッチパフォーマンス</dd>
+                        <dd>YOSAKOIソーラン演舞</dd>
+                        <dd>鹿島神流</dd>
+                        <dd>第20回松美記念</dd>
+                        <dd>BIGBAND Jazz Live</dd>
+                        <dd>Pectoralsスペシャルステージ！</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="zenyasai-area">
+                <div class="zenyasai-image">
+                    <img src="images/1area.jpg">
+                </div>
+                <div class="zenyasai-d">
+                    <dl>
+                        <dt>第一エリア</dt>
+                        <dd>Doo-Wop教室ステージ</dd>
+                        <dd>童話café</dd>
+                        <dd>焼肉　最高</dd>
+                        <dd>のうりんむら（肉）</dd>
+                        <dd>つくふぉーカフェ</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="zenyasai-area">
+                <div class="zenyasai-image">
+                    <img src="images/23area.JPG">
+                </div>
+                <dl>
+                    <dt>第二・三エリア</dt>
+                    <dd>管弦カフェ</dd>
+                    <dd>ラジオ番組TURN公開収録！</dd>
+                    <dd>むし虫ミュージアム～覗いてみよう虫世界～</dd>
+                    <dd>青森県人会</dd>
+                    <dd>ツクバダインショー</dd>
+                    <dd>筑れーぷ</dd>
+                    <dd>つくば鳥人間の巣</dd>
+                    <dd>きのこごはん</dd>
+                    <dd>縁日-earth16 festival-</dd>
+                </dl>
+            </div>
+            <div class="zenyasai-area">
+                <div class="zenyasai-image">
+                    <img src="images/taigei.jpg">
+                </div>
+                <dl>
+                    <dt>会館・体芸エリア</dt>
+                    <dd>ねこたちのカフェ</dd>
+                    <dd>道端ケルト音楽会</dd>
+                    <dd>春日ビーフストロガノフ</dd>
+                    <dd>霜月茶会</dd>
+                </dl>
+            </div>
+
+            <div class="zenyasai-area">
+                <div class="zenyasai-image">
+                    <img src="images/iinkai.jpg">
+                </div>
+                <dl>
+                    <dt>委員会開催企画</dt>
+                    <dd>夢幻迷宮からの脱出</dd>
+                    <dd>ゆるキャラ®企画</dd>
+                    <dd>つくば研究紹介</dd>
+                    <dd>筑波塾</dd>
+                    <dd>雙峰祭グランプリ2016</dd>
+                </dl>
+            </div>
+
+
+
+
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>交通規制、自転車撤去-雙峰祭公式webサイト</title>
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <h2>交通規制、自転車撤去</h2>
+            <h3>進入禁止の道路について</h3>
+            <p>
+                学園祭期間中(11月4日(金)～11月6日(日))は大学施設につながるいくつかの道路や企画団体が荷物の搬入に利用する道路を進入禁止といたします。一般の来場者様、企画団体の皆様は以下の地図を参考にして、ご来訪ください。<br> ただし、以下に該当する場合の通行は規制いたしません。
+            </p>
+            <ul>
+                <li>緊急車両</li>
+                <li>教職員や研究室等に関係する学生の車両</li>
+                <li>大学施設の関係者や業者などの車両</li>
+                <li>学実委の業務に関わる車両</li>
+                <li>障がい者が乗り降りする車両</li>
+            </ul>
+            <h4>第一エリア、第二・第三エリア周辺</h4>
+            <div class="img-wrapper">
+                <img src="images/entrance_restriction01.png">
+            </div>
+            <h4>大学会館エリア、体芸エリア周辺</h4>
+            <div class="img-wrapper">
+                <img src="images/entrance_restriction02.png">
+            </div>
+            <h3>一方通行の道路について</h3>
+            <p>
+                学園祭期間中(11月4日(金)～11月6日(日))は、企画団体が荷物を搬入するために下記の道路を<span style="font-weight:900;">東側から西側への一方通行</span>とします。また、この道路を使用できる車両を以下のように制限いたします。
+            </p>
+            <h4>規制期間</h4>
+            <table class="regulation_hour">
+                <tr>
+                    <td>11月4日(金)</td>
+                    <td>9:00～22:30</td>
+                </tr>
+                <tr>
+                    <td>11月5日(土)、6日(日)</td>
+                    <td>7:30～22:00</td>
+                </tr>
+            </table>
+            <h4>対象となる道路</h4>
+            <div class="box-h5">
+                <h5>第一エリアと中央図書館間の道路</h5>
+                <div class="img-wrapper">
+                    <img src="images/one-way01.png">
+                </div>
+                <p>
+                    また企画団体は上記の道路に加え、以下の道路も荷物の搬入に使用できます。この道路を使用できる車両は上記の道路と同様になります。
+                </p>
+            </div>
+            <div class="box-h5">
+                <h5>5C棟前の連絡通路</h5>
+                <div class="img-wrapper">
+                    <img src="images/one-way02.png">
+                </div>
+                <p>
+                    この道路は、<span style="font-weight:900;">企画団体の皆様のみご利用いただけます</span>。
+                </p>
+                <p>
+                    ※企画団体が荷物を搬入・搬出する際の注意<br> 停車する際は
+                    <span style="font-weight:900;">右側車線</span>に入り、搬入・搬出は速やかに行ってください。また搬入・搬出時間は10分前後としてください。それ以上の停車は違反とみなし、それ以後の通行を禁止することがあります。通路の安全確保にご協力ください。
+                </p>
+            </div>
+            <h4>使用可能な車両一覧</h4>
+            <ul>
+                <li>緊急車両（西側からの通行も許可します）</li>
+                <li>教職員や研究室等に関係する学生の車両</li>
+                <li>大学施設の関係者や業者等の車両</li>
+                <li>学実委の業務に関わる車両</li>
+                <li>障がい者が乗り降りする車両</li>
+                <li style="font-weight:800;">通行証を持った車両</li>
+            </ul>
+            <p>
+                ※通行証は企画団体にのみ発行されます。一般の来場者様の車両は上記の道路を通行することができませんのでお気をつけください。<br> ※上記の道路の東側の入口で学実委が通行可能な車両かを調べるために停車指示を出します。
+                <br> 安全のため車両の速度を落として進入するようお願いいたします。
+            </p>
+            <h3>会場内の交通規制について</h3>
+            <p style="margin-bottom:0;">
+                学園祭期間中(11月4日(金)～11月6日(日))は安全確保のため、会場内の自転車を含む軽車両での通行を禁止いたします。会場内では自転車を押して歩いてください。ご理解とご協力のほどよろしくお願いいたします。<br> また以下の車両は規制対象外となります。
+            </p>
+            <ul style="margin:0;">
+                <li>緊急車両</li>
+                <li>学実委の業務に関する車両</li>
+            </ul>
+            <h4>規制期間</h4>
+            <table class="regulation_hour">
+                <tr>
+                    <td>11月4日(金)</td>
+                    <td>9:00～22:30</td>
+                </tr>
+                <tr>
+                    <td>11月5日(土)、6日(日)</td>
+                    <td>7:30～22:00</td>
+                </tr>
+            </table>
+            <h4>規制対象区間</h4>
+            <p>学内ペデストリアンデッキ(第二・第三エリア北～体芸図書館南)</p>
+            <div style="overflow:hidden;">
+                <div class="img-wrapper" style="width:50%;float:left;">
+                    <img src="images/bike_restriction01.png">
+                </div>
+                <div class="img-wrapper" style="width:50%;float:left;">
+                    <img src="images/bike_restriction02.png">
+                </div>
+            </div>
+            <p>
+                自転車で来訪されるお客様、企画団体の皆様は学園祭期間中に設置される<a href="venue#prk-fr-bk" class="textlink">特設駐輪場</a>に自転車を停めることができます。ぜひご活用ください。特設駐輪場の詳細な位置については「特設駐輪場について」の項でご確認いただけます。<br>また学園祭期間中はテント設営や通路確保のため、学実委で会場内に駐輪してある自転車を撤去させていただきます。会場内での駐輪は絶対にお止めください。
+            </p>
+            <h3>自転車撤去について</h3>
+            <p>テントの設営や物品の搬入・搬出、来場者の安全な通行のために、<span style="font-weight:900;">11月4日(金)にペデストリアンデッキ上の自転車を撤去いたします。</span>撤去対象場所となっている駐輪場に停めてある方は期日までに自転車を会場外の駐輪場まで移動させてください。<br> 自身の自転車が撤去されてしまった場合には、撤去対象場所とそれに対応する撤去先を確認し、自転車を回収してください。<br>また、<span style="font-weight:900;">自転車撤去に関する自転車の紛失や破損には学実委の方では対応いたしかねます。</span>ご理解のほどよろしくお願いいたします。<br> 特設駐輪場については
+                <a href="venue#prk-fr-bk" class="textlink">こちら</a></p>
+            <h4>撤去対象場所と撤去先</h4>
+            <p>
+                撤去対象場所：赤<br> 撤去先：水色
+            </p>
+            <ul class="bike_removal" style="list-style:none;">
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal01.png">
+                    </div>
+                    3A棟東側→理科系修士棟北
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal02.png">
+                    </div>
+                    第二エリアペデストリアンデッキ上 →2A棟南駐輪場
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal03.png">
+                    </div>
+                    人間系学系A棟→2A棟南駐輪場
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal04.png">
+                    </div>
+                    理科系修士棟A棟周辺→理科系修士棟北
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal05.png">
+                    </div>
+                    人文・社会学系棟→中央図書館北および東<br> 中央図書館周辺→中央図書館北および東
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal06.png">
+                    </div>
+                    第一エリア学群棟周辺→中央図書館西
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal07.png">
+                    </div>
+                    大学会館付近、ATM及び留学生センター前、 保険管理センター周辺 →学術情報メディアセンター東側駐輪場
+                </li>
+                <li>
+                    <div class="img-wrapper">
+                        <img src="images/bike_removal08.png">
+                    </div>
+                    5C棟北側→5C棟北駐輪場<br> 5C棟南側~体芸食堂前→体芸食堂南
+                </li>
+            </ul>
+
+            <h3>障がい者用道路・障がい者用駐車場について</h3>
+            <p>
+                障がいを持つ方が円滑に会場にお越しいただけるように、以下の道路を、障がいを持つ方が乗り降りする車両に向けのみ開放いたします。<br>また同様に以下の駐車場も開放いたします。該当されない一般の来場者様、企画団体の皆様が使用することのないようお願いいたします。学園祭期間中開放されている３つの駐車場（第三エリア駐車場・本部棟南駐車場・南地区駐車場）をご使用ください。
+            </p>
+
+            <div class="img-wrapper">
+                <img src="images/road_for_handicapped.png">
+            </div>
+            <h3>合図花火・打ち上げ花火について</h3>
+            <p>雙峰祭期間中は、祭りの開始を知らせる合図花火と、雙峰祭の最後を締めくくる打ち上げ花火が予定されております。
+              <br>後夜祭の最後を飾る盛大な打ち上げ花火ですので、ぜひご覧ください。
+              <br>つきましては、近隣にお住まいの皆様には騒音等のご迷惑をおかけすることと思いますが、ご理解とご協力のほどよろしくお願いいたします。また、各花火の打ち上げに際し、以下の通りに開催します。やむを得ない理由で時間が前後する可能性がございますので、予めご了承ください。
+            </p>
+            <h4>打ち上げ日時</h4>
+            <dl>
+              <dt>実施を知らせる合図花火</dt>
+              <dd>11月4日(金) 15:30</dd>
+              <dd>11月5日(土) 10:00</dd>
+              <dd>11月6日(日) 10:00</dd>
+              <dt>打ち上げ花火</dt>
+              <dd>11月6日(日) 20:15 ~ 20:30</dd>
+            </dl>
+            <h4>打ち上げ場所</h4>
+            <p>筑波大学 虹の広場(右図) ※安全のため、虹の広場と周辺道路の一部が立ち入り禁止(図の黒縁丸部分)になります。
+              <br>※花火は筑波大学石の広場でよくご覧いただけると思いますので、是非お越しください。</p>
+
+            <h4>注意事項</h4>
+            <p>11月6日(日)20:00〜20:45は、虹の広場と第2・第3エリア間の「けやき通り」が通行禁止になりますので。ご了承願います。
+              <br>なお、第三エリア北駐車場においては、風向きにより花火玉の破片が飛沫し、車を傷つけてしまうおそれがありますので、ご注意ください。花火玉の破片等による車の損傷については、学園祭実行委員会の方では責任を負いかねますので、ご了承願います。
+            </p>
+            <div class="img-wrapper">
+              <img src="images/fireworksmap.png">
+            </div>
+        
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

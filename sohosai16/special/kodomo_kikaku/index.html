@@ -1,0 +1,260 @@
+<html>
+
+<head>
+    <title>子ども企画 | 雙峰祭 | 筑波大学</title>
+    <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <link href="stylesheets/kodomo_kikaku.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="naiyou">
+    <div class="container">
+        <img src="images/kodomo_kikaku.png" class="cen">
+        <div id="index">
+            <a href="special/kodomo_kikaku#show"><img src="images/kodomo_geki.png" class="min1"></a>
+            <a href="special/kodomo_kikaku#rally"><img src="images/kodomo_rari-.png" class="min2"></a>
+        </div>
+    </div>
+    <div class="kodomo_geki" id="show">
+      <div class="gekigeki">
+        <img src="images/kodomo_geki.png" class="geki">
+      </div>
+      <div class="gekitwo">
+        <div class="hukudai">
+          <p>「たからもの～ぼくと<ruby><rb>魔法使</rb><rp>(</rp><rt>まほうつか</rt><rp>)</rp></ruby>いのふしぎな<ruby><rb>出会</rb><rp>(</rp><rt>であ</rt><rp>)</rp></ruby>い～」</p>
+        </div>
+        <div class="infoone">
+          <p>11月5日(土)12:00～13:00<br>
+            11月6日(日)12:00～13:00<br>
+            晴天時：松美池ステージ<br>
+            雨天時：1B408
+          </p>
+        </div>
+        <div class="arasuzi">
+          <h4>あらすじ</h4>
+          <p>小学3年生のまさやは、ある日両親とケンカしてしまう。家を飛び出したまさやが出会ったのは、黒い男の子の魔法使いと、白い女の子の魔法使い。2人の魔法使いとの出会いによってまさやが得たものとは…？<br>
+            そして、まさやは本当に大切なものに気がつくことはできるのか……？
+          </p>
+        </div>
+        <div class="flowone">
+          <h4>子ども劇とは？</h4>
+          <p>子ども向けに上演される劇です！<br>
+            会場の松美池ステージの前では、たくさんの人が座りながら劇を見ることができます。<br>
+            お昼ごはんを食べながら、家族みんなでゆっくりと楽しいひとときをお過ごしください！
+          </p>
+        </div>
+        <div class="flowtwo">
+          <h4>みどころ</h4>
+          <p>劇中には実験やクイズなど、見ている人も一緒になって楽しめる仕掛けが…！？<br>
+            主人公たちと一緒に劇の世界を120%楽しんじゃおう！
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="pettanko_rari-" id="rally">
+      <div class="kasane">
+        <img src="images/kodomo_rari-.png" class="rari-">
+        <img src="images/stanp.png" class="stanp">
+      </div>
+      <div class="rari-two">
+        <div class="infotwo">
+          <p>11月5日(土)10:00～18:00<br>
+            11月6日(日)10:00～16:00<br>
+            景品交換所…晴天時：中央図書館南テント<br>
+            　　　　　　雨天時：1C棟3階ソファー
+          </p>
+        </div>
+        <div class="flowone">
+          <h4>ぺったんこラリーとは？</h4>
+          <p>子どもが楽しめる色々な企画にスタンプを設置した、子ども向けのスタンプラリーです☆<br>
+            スタンプを集めると素敵なプレゼントがもらえるよ！<br>
+            色々な企画をまわって景品をもらっちゃおう！
+          </p>
+        </div>
+        <div class="flowtwo">
+          <h4>ここがポイント！</h4>
+          <p>スタンプが置かれている企画は、どれも楽しいものばーっかり！<br>
+            スタンプをもらうだけじゃなくて、ひとつひとつの企画を楽しんじゃおう！<br>
+            スタンプを集めれば集めるほど、たくさんの景品がもらえるよ！<br>
+            大学内を歩き回ってたくさんのスタンプを集めよう！
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>

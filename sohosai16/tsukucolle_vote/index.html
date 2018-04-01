@@ -1,0 +1,94 @@
+<!DOGTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TSUKUBA COLLECTION</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="msr">
+            <input type="radio" name="mr" value="1" id="select1" v-model="a">
+            <label for="select1" class="clearfix">
+       <div class="left">
+	<h1>Mr.部門 No.1</h1>
+	<p>守谷 凪季</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/mr01.jpg" class="photo">
+	</div>
+      </label>
+            <input type="radio" name="mr" value="2" id="select2" v-model="a">
+            <label for="select2" class="clearfix">
+       <div class="left">
+	<h1>Mr.部門 No.2</h1>
+	<p>神島 駿太郎</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/mr02.jpg" class="photo">
+	</div>
+      </label>
+            <input type="radio" name="mr" value="3" id="select3" v-model="a">
+            <label for="select3" class="clearfix">
+       <div class="left">
+	<h1>Mr.部門 No.3</h1>
+	<p>金久保 俊亮</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/mr03.jpg" class="photo">
+	</div>
+      </label>
+        </div>
+        <div class="ms">
+            <input type="radio" name="miss" value="1" id="select4" v-model="b">
+            <label for="select4" class="clearfix">
+       <div class="left">
+	<h1>Ms.部門 No.1</h1>
+	<p>橋本 茉奈</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/ms01.jpg" class="photo">
+	</div>
+      </label>
+            <input type="radio" name="miss" value="2" id="select5" v-model="b">
+            <label for="select5" class="clearfix">
+       <div class="left">
+	<h1>Ms.部門 No.2</h1>
+	<p>戸川 千勢</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/ms02.jpg" class="photo">
+	</div>
+      </label>
+            <input type="radio" name="miss" value="3" id="select6" v-model="b">
+            <label for="select6" class="clearfix">
+       <div class="left">
+	<h1>Ms.部門 No.3</h1>
+	<p>小松　史奈</p>
+       </div>
+	<div class="right">
+	  <img src="tsukukon/ms03.jpg" class="photo">
+	</div>
+      </label>
+            <input type="radio" name="miss" value="4" id="select7" v-model="b">
+            <label for="select7" class="clearfix">
+        <div class="left">
+          <h1>Ms.部門 No.4</h1>
+          <p>宮脇 幸那</p>
+        </div>
+        <div class="right">
+          <img src="tsukukon/ms04.jpg" class="photo">
+        </div>
+      </label>
+        </div>
+        <a href="mailto:tc{{ a }}-{{ b }}@tsukucolle16.sohosai.com">
+            <span class="sendbtn">送信する</span>
+        </a><br><br>
+        <script src="./vue.min.js"></script>
+        <script src="vue.main.js"></script>
+    </div>
+</body>
+
+</html>

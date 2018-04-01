@@ -1,0 +1,53 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1182.5 444" style="enable-background:new 0 0 1182.5 444;" xml:space="preserve">
+
+    <defs>
+        <filter id="drop-shadow" width="110%" height="110%">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+        </filter>
+        <filter id="f4" x="0" y="0" width="120%" height="120%">
+            <feOffset result="offOut" in="SourceGraphic" dx="0" dy="0" />
+            <feColorMatrix result="matrixOut" in="offOut" type="matrix"
+                           values="0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 1 0" />
+            <feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="10" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+        </filter>
+        <filter id="MyFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="130%" height="130%">
+            <!-- ソースグラフィックのアルファチャンネル SourceAlpha から始める -->
+            <!-- 原始フィルタ ガウスぼかし 名前 "blur" とする -->
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4" result="blur"/>
+            <!-- 原始フィルタ ぼかしのオフセット "blur"を(dx,dy)でオフセットし、名前"offsetBlur"にする -->
+            <feOffset in="blur" dx="4" dy="4" result="offsetBlur"/>
+            <!-- 原始フィルタ 点光源(feSpecularLighting)による照明効果を生成し、名前"specOut"にする -->
+        </filter>
+    </defs>
+<g id="background">
+    <polygon style="fill:#5396c8;" filter="url(#drop-shadow);" points="1045.406,422.926 18,422.926 18,121.901 121.593,21.075 1149,21.075 1149,322.1 	"/>
+    <polygon style="fill:#002040;" points="1045.406,422.926 18,422.926 18,121.901 121.593,21.075 1149,21.075 1149,322.1 	"/>
+</g>
+<g id="lines" style="fill:gray">
+	<rect x="19" y="210.559" width="1129" height="1"/>
+	<rect x="19" y="232.441" width="1129" height="1"/>
+	<rect x="19" y="254.324" width="1129" height="1"/>
+	<rect x="19" y="276.206" width="1129" height="1"/>
+	<rect x="19" y="298.088" width="1129" height="1"/>
+	<rect x="19" y="319.971" width="1129" height="1"/>
+	<rect x="19" y="341.853" width="1107.519" height="1"/>
+	<rect x="19" y="363.735" width="1085.101" height="1"/>
+	<rect x="107.734" y="35.5" width="1040.266" height="1"/>
+	<rect x="85.317" y="57.382"  width="1062.683" height="1"/>
+	<rect x="62.899" y="79.265" width="1085.101" height="1"/>
+	<rect x="40.481" y="101.147" width="1107.519" height="1"/>
+	<rect x="19" y="123.029" width="1129" height="1"/>
+	<rect x="19" y="144.912" width="1129" height="1"/>
+	<rect x="19" y="166.794" width="1129" height="1"/>
+	<rect x="19" y="188.676" width="1129" height="1"/>
+	<rect x="19" y="385.617" width="1062.683" height="1"/>
+	<rect x="19" y="407.5" width="1040.266" height="1"/>
+</g>
+<g id="wrapper">
+    <path style="fill:#5396c8;" d="M1045.406,422.926H18V122.195l0.301-0.294L121.593,21.075H1149v300.73l-0.302,0.295L1045.406,422.926
+                                    z M20,420.926h1024.592L1147,320.962V23.075H122.408L20,123.038V420.926z"/>
+    <path style="fill:#5396c8;" filter="url(#MyFilter)" d="M1045.406,422.926H18V122.195l0.301-0.294L121.593,21.075H1149v300.73l-0.302,0.295L1045.406,422.926
+                                                              z M20,420.926h1024.592L1147,320.962V23.075H122.408L20,123.038V420.926z"/>
+</g>
+</svg>

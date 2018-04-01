@@ -1,0 +1,247 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    color: #333;
+    font-family: メイリオ, 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-family: serif;
+}
+
+body {
+    background-color: #EFEBDA;
+}
+
+#topbar {
+    margin-top: 0;
+    top: 0;
+}
+
+.eye-catch {
+    margin-top: 60px;
+    padding-top: 2rem;
+    overflow: hidden;
+    font-family: serif;
+}
+
+.eye-catch h2 {
+    font-weight: 700;
+    padding-left: 1rem;
+    font-size: 2.7rem;
+}
+
+.profile {
+    margin-top: 3rem;
+    overflow: hidden;
+}
+
+.profile .img-wrapper {
+    margin-left: rem;
+    width: 30%;
+    float: left;
+}
+
+.profile .img-wrapper img {
+    width: 100%;
+    padding: 1rem;
+}
+
+.eye-catch table {
+    width: 67%;
+    margin-left: 3%;
+    float: left;
+    font-size: 2.2rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+.eye-catch td {
+    padding-top: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.main-content {
+    margin-top: 2rem;
+    font-family: serif;
+    overflow: hidden;
+    padding-left: 1rem;
+}
+
+.main-content h3 {
+    padding-left: 3rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.main-content .questions {
+    padding-left: 2rem;
+    width: 55%;
+    margin-right: 3%;
+    float: left;
+    font-size: 2rem;
+}
+
+.question ol {
+    margin: 0;
+}
+
+.questions li {
+    line-height: 3.2rem;
+    font-weight: 600;
+}
+
+.main-content ol li {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.main-content .img-area {
+    float: left;
+    overflow: hidden;
+    width: 42%;
+    padding-right: 3rem;
+}
+
+.main-content .img-wrapper {
+    width: 50%;
+    float: left;
+    padding: 1rem;
+}
+
+.main-content .img-wrapper img:hover {
+    opacity: 0.7;
+    background-color: #fff;
+}
+
+.main-content .img-wrapper img {
+    width: 100%;
+    margin: 1rem;
+}
+
+.voting {
+    margin-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.voting a:hover {
+    text-decoration: none;
+}
+
+.voting a .button:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.button {
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    /* border-radius */
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    /* border */
+    border: 1px solid white;
+    text-align: center;
+    /*width: 16.5rem;*/
+    width: 20rem;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.junbichu {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 250px;
+    font-size: 100px;
+}
+
+@media(max-width:990px) {
+    html {
+        font-size: 50%;
+    }
+    .eye-catch table {
+        line-height: 2.2rem;
+    }
+}
+
+@media(max-width:730px) {
+    .eye-catch h2 {
+        padding-left: 3rem;
+    }
+    .eye-catch table {
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+    }
+    .questions li {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+}
+
+@media(max-width:610px) {
+    .eye-catch h2 {
+        font-size: 2.5rem;
+    }
+    .profile {
+        margin-top: 0;
+    }
+    .eye-catch table {
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+    }
+    .main-content h3 {
+        font-size: 2.3rem;
+    }
+    .questions li {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
+
+@media(max-width:500px) {
+    .eye-catch table {
+        margin-top: 0;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+        line-height: 1.1rem;
+    }
+    .questions li {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .main-content h3 {
+        font-size: 1.7rem;
+    }
+    .main-content ol {
+        padding-left: 2rem;
+    }
+}
+
+@media(max-width:400px) {
+    .eye-catch h2 {
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    .eye-catch .img-wrapper {
+        width: 20%;
+    }
+    .eye-catch table {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .eye-catch talbe td {
+        padding-top: 0;
+    }
+    .questions li {
+        font-size: 1rem;
+    }
+    .main-content .questions {
+        width: 50%;
+        margin-right: 0;
+    }
+    .main-content .img-area {
+        width: 50%;
+    }
+}

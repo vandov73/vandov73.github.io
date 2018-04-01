@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <link href="stylesheets/researches.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/research.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <header>
+        <h2>筑波大学委員会開催企画</h2>
+        <h1>
+            <a href="special/researches">つくば研究紹介</a>
+        </h1>
+        <table class="head_str">
+            <tr>
+                <th>日時：</th>
+                <th>本祭1,2日目　10:00~16:00</th>
+            </tr>
+            <tr>
+                <th>場所：</th>
+                <th>3A207、3A209</th>
+            </tr>
+        </table>
+    </header>
+    <div class="all_contents">
+        <section class="contents overview clearfix">
+
+          <h1>山岳科学に関する研究教育</h1>
+           <h2>菅平高原実験センター</h2>
+           <h2>農林技術センター演習林</h2>
+
+            <div>
+                <p>菅平高原実験センターは長野県上田市の標高約1,300mの高冷地に位置し、その立地条件はもとより広い実験地、敷地と施設・設備を活用することにより、生物科学を中心に学際的な自然環境に関連する教育・研究を進めています。農林技術センター演習林はつくばキャンパス内の実験林、長野県野辺山の八ヶ岳・川上演林および静岡県北部の井川演習林の3か所で構成され、森林管理や治山、山岳気象、生物多様性などの教育・研究を進めています。私たち2機関は2017年4月より統合して山岳科学センターとして発足し、日本ではまた確立されていない“山岳科学”の教育・研究の拠点となることを目指しています。本発表では現在私たちが行っている教育・研究に関する活動を紹介します。
+</p>
+                <dl>
+                    <dt>日時:</dt>
+                    <dd>11/5,11/6　両日とも14:00～15:00</dd>
+                    <dt>内容:</dt>
+                    <dd></dd>
+                    <dd></dd>
+                    <dt>担当者:</dt>
+                    <dd>津田吉晃　(菅平高原実験センター准教授)</dd>
+                    <dd>佐藤幸恵　(菅平高原実験センター助教)</dd>
+                    <dd>門脇正史　(農林技術センター演習林　助教)</dd>
+                    <dt>リンク:</dt>
+                    <dd>菅平
+                        <a href=" http://www.sugadaira.tsukuba.ac.jp/">
+                          http://www.sugadaira.tsukuba.ac.jp/
+            </a>
+                    </dd>
+                    <dd>演習林
+                        <a href=" http://www.nourin.tsukuba.ac.jp/~forest/">
+                          http://www.nourin.tsukuba.ac.jp/~forest/</a>
+                    </dd>
+                </dl>
+            </div>　
+            <div class="clearfix">
+                <div class="col-md-6">
+
+                      <div class="img-wrapper">
+                          <img src="images/sugadaira1.png" class="yui1" >
+                      </div>
+                      <p>「井川演習林における森林流域工学の実習風景</p>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="img-wrapper">
+                          <img src="images/sugadaira2.png" class="yui2">
+                      </div>
+                      <p>菅平高原実験センターの山岳草原における調査風景</p>
+                  </div>
+                </div>
+              </section>
+        </section>
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>企業の方へ-雙峰祭公式webサイト</title>
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <h2>企業の方へ</h2>
+            <h3>協賛企業一覧</h3>
+            <p>第42回筑波大学学園祭「雙峰祭」を開催するにあたり、多くの企業・団体よりご支援をいただきました。
+                <br>感謝の意を込めて、ご支援いただいた企業・団体をご紹介いたします。
+                <br>（順不同・敬称略）
+            </p>
+            <div class="col-md-6 sponsors">
+                <dl>
+                    <dd>株式会社ホテル山久</dd>
+                    <dd>医療法人飯岡医院</dd>
+                    <dd>CoCo壱番屋つくば桜店</dd>
+                    <dd>株式会社椿屋商事</dd>
+                    <dd>学園中央自動車学校</dd>
+                    <dd>株式会社イセブ</dd>
+                    <dd>ファミリーマートつくば春日四丁目店</dd>
+                    <dd>大学前薬局</dd>
+                    <dd>北方園</dd>
+                    <dd>つくばドライビングスクール</dd>
+                    <dd>とんかつ千香華味</dd>
+                    <dd>moi!kka</dd>
+                    <dd>有限会社コート・ダジュール</dd>
+                    <dd>百香亭筑波大学店</dd>
+                    <dd>割烹一の矢</dd>
+                    <dd>ドルフ</dd>
+                    <dd>プラスワンガーデン</dd>
+                    <dd>半田屋つくば大学前店</dd>
+                    <dd>株式会社広報社DESIGN STUDIO T.</dd>
+                    <dd>茶の木村園</dd>
+                    <dd>大成産業株式会社</dd>
+                    <dd>麺や 蒼</dd>
+                    <dd>株式会社塚越産業</dd>
+                    <dd>Ibaraki BMW つくば支店</dd>
+                    <dd>東京背脂 銀の豚</dd>
+                    <dd>さくら歯科医院</dd>
+                    <dd>株式会社マイハウス つくば店</dd>
+                    <dd>中島モーターサイクル</dd>
+                    <dd>株式会社日活アド・エイジェンシー</dd>
+                    <dd>有限会社柿本ハウジング</dd>
+                    <dd>有限会社タクミ不動産</dd>
+                    <dd>アサクラスポーツ株式会社</dd>
+                    <dd>香陵住販株式会社 つくば天久保店</dd>
+                    <dd>株式会社ピーターパン 吾妻店</dd>
+                    <dd>もつ鍋 番長</dd>
+                    <dd>株式会社カスミ テクノパーク桜店</dd>
+                    <dd>ローソンストア100筑波大学前店</dd>
+                    <dd>トヨタカローラ南茨城株式会社つくば店</dd>
+                    <dd>Suplis hair design</dd>
+                    <dd>株式会社筑波商事つくば支店</dd>
+                    <dd>株式会社教育情報サービス</dd>
+                    <dd>株式会社ヤングガンズ</dd>
+                    <dd>ガトー・プーリア</dd>
+                    <dd>春日歯科医院</dd>
+                    <dd>株式会社ホテルグランド東雲</dd>
+                    <dd>居酒屋くぼや</dd>
+                    <dd>おふくろ弁当</dd>
+                    <dd>一誠商事株式会社</dd>
+                    <dd>有限会社松見タクシー</dd>
+                    <dd>印晶堂</dd>
+                    <dd>株式会社アジア住販 筑波大学前店</dd>
+                    <dd>株式会社筑波地所つくば賃貸サービス</dd>
+                    <dd>ウォーク株式会社大学前通り店</dd>
+                    <dd>レイアウト9 学園店</dd>
+                    <dd>ミニストップつくば栗原店</dd>
+                    <dd>筑波大学内郵便局</dd>
+                    <dd>サロン デ サン</dd>
+                    <dd>ダイワロイネットホテルつくば</dd>
+                    <dd>株式会社トヨタレンタリース茨城つくば学園店</dd>
+                    <dd>藻バイオテクノロジーズ株式会社</dd>
+                    <dd>佐竹理容室</dd>
+                    <dd>桂不動産株式会社筑波大学前支店</dd>
+                    <dd>スタジオ ソング・サイクル</dd>
+                    <dd>株式会社常陽コーポレーション</dd>
+                    <dd>ちょっきんなべ</dd>
+                    <dd>ローソンつくば天久保三丁目店</dd>
+                    <dd>有限会社ジールサロン</dd>
+                    <dd>菱光建設株式会社</dd>
+                    <dd>株式会社万全商事</dd>
+                    <dd>株式会社トゥーマーカープロダクツ トゥールズ筑波大学売店</dd>
+                    <dd>株式会社ライブパワーIKB</dd>
+                    <dd>ファシリティーズTSUKUBA</dd>
+                    <dd>株式会社土浦自動車学校</dd>
+                    <dd>竹園セントラル歯科医院</dd>
+                    <dd>株式会社秀和不動産</dd>
+                    <dd>青山がらり</dd>
+                    <dd>山形・県南自動車学校</dd>
+                    <dd>ゼビオ株式会社スパースポーツゼビオドームつくば店</dd>
+                    <dd>広沢土地倉庫株式会社</dd>
+                    <dd>伝説のすた丼屋 つくば大学店</dd>
+                    <dd>株式会社志ち乃</dd>
+                    <dd>株式会社イーゲル</dd>
+                    <dd>株式会社総合資格</dd>
+                    <dd>井上サイクル</dd>
+                    <dd>関東鉄道株式会社</dd>
+                    <dd>CYBER DYNE株式会社</dd>
+                    <dd>株式会社大宮レジャーセンタースペースクリエイト自遊空間つくば南大通り店</dd>
+                    <dd>株式会社リクルートコミュニケーションズ</dd>
+                    <dd>インテリジェントネット株式会社</dd>
+                    <dd>筑波大学第三学群食堂</dd>
+                    <dd>武田塾つくば校</dd>
+                    <dd>筑波都市整備株式会社（つくばクレオスクエア）</dd>
+                    <dd>合同会社SIMPSON TRADING</dd>
+                    <dd>クーロンヌつくば</dd>
+                    <dd>株式会社ナガセ 東進ハイスクールつくば校</dd>
+                    <dd>株式会社エイチ・アイ・エス</dd>
+                    <dd>茨城空港利用促進等協議会</dd>
+                    <dd>エポックぽてと株式会社</dd>
+                    <dd>自衛隊茨城地方協力本部</dd>
+                    <dd>学生コミュニティサロン「エンタク！」</dd>
+                    <dd>紳士服のコナカ つくば学園大穂店</dd>
+                    <dd>株式会社ライトオン</dd>
+                    <dd>関彰商事株式会社</dd>
+                    <dd>オークラフロンティアホテルつくば</dd>
+                    <dd>みなと運送株式会社　つくば支店</dd>
+                    <dd>株式会社井上フード</dd>
+                    <dd>上総屋不動産株式会社 筑波大学前支店</dd>
+                </dl>
+            </div>
+            <div class="col-md-6 sponsor">
+                <dl>
+                    <dd>有限会社ホテルニューオーツカ</dd>
+                    <dd>株式会社白鳳堂</dd>
+                    <dd>株式会社明色化粧品</dd>
+                    <dd>株式会社阪本高生堂</dd>
+                    <dd>UQコミュニケーションズ株式会社</dd>
+                    <dd>ヒガシマル醤油株式会社</dd>
+                    <dd>東京フード株式会社</dd>
+                    <dd>マルコメ株式会社</dd>
+                    <dd>大島椿株式会社</dd>
+                    <dd>株式会社ドリテック</dd>
+                    <dd>株式会社おやつカンパニー</dd>
+                    <dd>株式会社日本一ソフトウェア</dd>
+                    <dd>株式会社セガ・ライブクリエイション 東京ジョイポリス</dd>
+                    <dd>江口製菓株式会社</dd>
+                    <dd>イオンシネマ守谷</dd>
+                    <dd>株式会社金冠堂</dd>
+                    <dd>TSUTAYAつくば桜店</dd>
+                    <dd>ニベア花王株式会社</dd>
+                    <dd>株式会社新横浜ラーメン博物館</dd>
+                    <dd>すみだ水族館</dd>
+                    <dd>栃木県なかがわ水遊園</dd>
+                    <dd>小川珈琲株式会社</dd>
+                    <dd>ブルドッグソース株式会社</dd>
+                    <dd>GALA湯沢スキー場</dd>
+                    <dd>よーじやグループ 株式会社國枝商店</dd>
+                    <dd>株式会社京樽</dd>
+                    <dd>株式会社ダイガクコーポレーション 大学ボウル土浦本店</dd>
+                    <dd>株式会社東急リゾートサービスハンターマウンテン塩原</dd>
+                    <dd>いなば食品株式会社</dd>
+                    <dd>株式会社キャメル鉛筆製作所</dd>
+                    <dd>COFFEE HOUSE とむとむ</dd>
+                    <dd>デンタルプロ株式会社</dd>
+                    <dd>エスケー石鹸株式会社</dd>
+                    <dd>公益財団法人つくば科学万博記念財団</dd>
+                    <dd>水戸市植物公園</dd>
+                    <dd>江崎グリコ株式会社</dd>
+                    <dd>株式会社アイコク</dd>
+                    <dd>大塚製薬株式会社つくば出張所</dd>
+                    <dd>大塚食品株式会社</dd>
+                    <dd>駿台柏校</dd>
+                    <dd>株式会社ヤマサキ</dd>
+                    <dd>株式会社沼屋本店</dd>
+                    <dd>株式会社チェリーテラス</dd>
+                    <dd>TBCグループ株式会社</dd>
+                    <dd>株式会社ピクニック</dd>
+                    <dd>玉露園食品工業株式会社</dd>
+                    <dd>カタギ食品株式会社</dd>
+                    <dd>株式会社ラグノオささき</dd>
+                    <dd>浅草花やしき</dd>
+                    <dd>株式会社ウエニ貿易</dd>
+                    <dd>相田みつを美術館</dd>
+                    <dd>コーセー化粧品販売株式会社 水戸支店</dd>
+                    <dd>株式会社尾瀬岩鞍リゾート</dd>
+                    <dd>株式会社ユニマットライフつくば営業所</dd>
+                    <dd>イセ食品株式会社</dd>
+                    <dd>株式会社ダリヤ</dd>
+                    <dd>株式会社オーブ</dd>
+                    <dd>株式会社鹿島アントラーズ・エフ・シー</dd>
+                    <dd>玉川衛材株式会社</dd>
+                    <dd>トランセンドジャパン</dd>
+                    <dd>ライオン菓子株式会社</dd>
+                    <dd>赤穂化成株式会社東京支店</dd>
+                    <dd>久光製薬株式会社</dd>
+                    <dd>キタノ商事株式会社</dd>
+                    <dd>株式会社志満秀</dd>
+                    <dd>株式会社美十</dd>
+                    <dd>Skullcandy Japan合同会社</dd>
+                    <dd>ハタ鉱泉株式会社</dd>
+                    <dd>セメダイン株式会社</dd>
+                    <dd>株式会社ディー・アップ</dd>
+                    <dd>ナカバヤシ株式会社</dd>
+                    <dd>NPO法人I.H.C.N.カレッジフェスタ事務局本部</dd>
+                    <dd>中野製薬株式会社</dd>
+                    <dd>有限会社タカミ製菓</dd>
+                    <dd>株式会社クロノファクトリー</dd>
+                    <dd>株式会社オリオン日本支社</dd>
+                    <dd>株式会社ロッテ</dd>
+                    <dd>株式会社ノーブル・エイペックス</dd>
+                    <dd>株式会社マンナンライフ</dd>
+                    <dd>東京国立近代美術館</dd>
+                    <dd>株式会社富士急ハイランド</dd>
+                    <dd>株式会社レスポートサックジャパン</dd>
+                    <dd>株式会社MTE</dd>
+                    
+                    <dd>DHC株式会社</dd>
+                    <dd>マルマン株式会社</dd>
+                    <dd>山芳製菓株式会社</dd>
+                    <dd>大正製薬株式会社</dd>
+                    <dd>株式会社第一興商</dd>
+                    <dd>井上商事株式会社</dd>
+                    <dd>株式会社近江兄弟社</dd>
+                    <dd>エースコック株式会社</dd>
+                    <dd>あさくさらすく株式会社</dd>
+                    <dd>ケンミン食品株式会社</dd>
+                    <dd>株式会社毎日コムネット</dd>
+                    <dd>株式会社リクルートジョブズ</dd>
+                    <dd>株式会社王将フードサービス</dd>
+                    <dd>箱根ガラス森美術館</dd>
+                    <dd>サンリオピューロランド</dd>
+                    <dd>株式会社ナチュラピュリファイ研究所</dd>
+                </dl>
+            </div>
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

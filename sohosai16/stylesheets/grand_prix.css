@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+body{
+  background-color: #10105E;
+  font-family: "游ゴシック";
+  font-size: 12px;
+}
+
+.container{
+  margin-top: 4rem;
+  margin: 0 auto;
+}
+
+.logo_container{
+  text-align: center;
+  margin: 0 auto;
+  width:80%;
+}
+
+.message{
+  text-align: right;
+  margin-top: 2rem;
+  color: white;
+  font-size:1.3rem;
+}
+
+.img{
+  width: 100%;
+  margin-top: 6rem;
+}
+
+h1, h2{
+  color:rgb(228,0,127);
+}
+
+h1{
+  font-size: 200%;
+}
+
+h2{
+  font-size:180%;
+}
+
+p{
+  color:white;
+}
+
+.two_column p{
+  font-size: 150%;
+}
+
+.phone p{
+  font-size: 125%;
+}
+
+.explanation{
+  padding: 2rem 0 2rem 2rem;
+}
+
+.explanation p{
+  font-size:160%;
+}
+
+.two_column{
+  width:80%;
+  margin: 0 auto;
+}
+
+.left{
+  width:50%;
+  float: left;
+}
+
+.right{
+  float: right;
+  width:50%;
+}
+
+.explanation{
+  background-color: rgb(0,161,233);
+  width:100%;
+  float:left;
+}
+
+@media screen and (max-width:480px) {
+  body{
+    margin:0;
+    font-size: 8px !important;
+  }
+  .container{
+    width:100%;
+  }
+  .logo{
+    width:100%;
+  }
+  .left{
+    width:100%;
+    float: none;
+  }
+  .right{
+    width:100%;
+    float: none;
+  }
+  .explanation{
+    padding: 1rem;
+    width:auto;
+    float:none;
+  }
+
+  .two_column{
+    width:90%;
+  }
+
+}
+a {
+  color:rgb(228,0,127);
+  font-size: 20px;
+}

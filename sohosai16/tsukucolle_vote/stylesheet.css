@@ -1,0 +1,66 @@
+.msr input{
+display: none;
+}
+
+.msr label{
+display: block;
+cursor: point;
+background-color: #E8E5FF;
+width:70%;
+margin-bottom:20px;
+}
+
+.ms input{
+display:none;
+}
+
+.ms label{
+display: block;
+cursor: point;
+background-color: #FFD8CF;
+width:70%;
+margin-bottom:20px;
+}
+
+.msr input[type="radio"]:checked + label{
+background-color: #368BAB;
+}
+
+.ms input[type="radio"]:checked + label{
+background-color: #DB6EA4;
+}
+
+.msr p{
+font-size:30px;
+}
+
+.ms p{
+font-size:30px;
+}
+
+img.photo{
+widhs:auto;
+height:160px;
+}
+
+.right{
+float:right;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left{
+float:left;
+}
+
+.sendbtn{
+ font-size:20px;
+ background-color: #55acee;
+ margin-bottom:30px;
+}

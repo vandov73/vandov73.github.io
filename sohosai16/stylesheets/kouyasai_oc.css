@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+body{
+  background-color: #333;
+}
+
+.logo{
+  margin-top: 8rem;
+}
+
+.graph{
+  width:100%;
+}
+
+.date{
+  color: #F42583;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.place{
+  color: #F42583;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+
+.description{
+  color: white;
+}
+
+.last{
+  padding-bottom: 5rem;
+}
+
+.oc{
+  width: 100%;
+}
+
+.introduction{
+  color: white;
+}
+
+.name{
+  color: #55A3A7;
+  font-weight: 700;
+}
+
+.blank{
+  padding-bottom: 3rem;
+}
+
+@media (max-width:425px){
+  .date{
+    font-size: 170%;
+  }
+
+  .place{
+    font-size: 170%;
+  }
+
+  .introduction{
+    font-size: 80%;
+    font-weight: 800;
+  }
+
+  p{
+    margin: 0 0 0px;
+  }
+  .name{
+    font-size: 100%;
+  }
+}
+
+@media (min-width:426px){
+  .date{
+    font-size: 200%;
+  }
+
+  .place{
+    font-size: 200%;
+  }
+
+  .left{
+    float: left;
+    width: 48%;
+  }
+
+  .right{
+    float: right;
+    width: 48%;
+  }
+
+  .about{
+    float: left;
+    width: 50%;
+  }
+
+  .last{
+    float: right;
+    width: 50%;
+  }
+
+  .description{
+    margin-right: 10%;
+  }
+
+  .introduction{
+    clear: both;
+    font-size: 180%;
+    font-weight: 400;
+  }
+
+  .line{
+    padding-top: 3rem;
+    overflow: auto;
+  }
+  .name{
+    font-size: 200%;
+  }
+}

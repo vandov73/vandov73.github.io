@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>会場案内-雙峰祭公式webサイト</title>
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <h2>会場案内</h2>
+
+            <h3 id="annai">会場案内図</h3>
+            <div class="ven-img ven-img-sp">
+                <a href="images/venue.png">
+                    <img src="images/venue.png">
+                </a>
+            </div>
+            <div class="ven-img ven-img-pc">
+                <a href="images/venue.png" data-lity="data-lity">
+                    <img src="images/venue.png">
+                </a>
+            </div>
+
+            <h3>公共交通機関でお越しの方へ</h3>
+            <p>つくばエクスプレスつくば駅6番バス乗り場より筑波大学循環バスで約15分、大学会館前または松美池でお降りください。
+                <br> ※春日エリア及び医学エリアでは学園祭を開催しておりません。間違ってお降りにならないようにご注意ください。
+                <br>
+            </p>
+            <a href="images/access.png" data-lity="data-lity">
+                <img src="images/access.png" style="max-width:90%;height:auto;margin-bottom:16px;">
+            </a>
+            <h3>お車でお越しの方へ</h3>
+            <p>常磐自動車道桜土浦インターより約20分</p>
+            <div class="parking-block">
+                <table width="100%">
+                    <td align="left" valign="top">
+                        <h4 align="">体芸エリア南駐車場</h4>
+                        <img src="images/south_parking.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="right" valign="top">
+                        <h4>第一エリア東駐車場</h4>
+                        <img src="images/center_parking.png" style="max-width:90%;height:auto;">
+                    </td>
+                </table><br><br>
+                <table width="100%">
+                    <td align="left" valign="top">
+                        <h4>第三エリア北駐車場</h4>
+                        <img src="images/temporary_parking.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="right" valign="top">
+                        <h4>全体図</h4>
+                        <img src="images/fullmap_parking.png" style="max-width:90%;height:auto;">
+                    </td>
+                </table>
+            </div>
+
+
+
+
+            <br><br>
+            <h3 id="prk-fr-bk" style="padding-top:60px;megin-top:-60px;">駐輪場</h3>
+            <div class="parking-block">
+                <table width="100%">
+                    <td align="left" valign="top">
+                        <h4>中央図書館西</h4>
+                        <img src="images/centrallibrary.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="right" valign="top">
+                        <h4>体芸食堂南</h4>
+                        <img src="images/PErestaurant.png" style="max-width:90%;height:auto;">
+                    </td>
+                </table>
+                <br><br>
+                <table width="100%">
+                    <td align="left" valign="top">
+                        <h4>総合研究棟B棟</h4>
+                        <img src="images/commonB.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="right" valign="top">
+                        <h4>生物農林学系統AB周辺</h4>
+                        <img src="images/agriculture.png" style="max-width:90%;height:auto;">
+                    </td>
+                </table>
+                <br><br>
+                <table width="100%">
+                    <td align="left" valign="top">
+
+                        <h4>人間系学系棟AB棟間</h4>
+                        <img src="images/human.png" style="max-width:90%;height:auto;">
+                        <td align="right" valign="top">
+                            <h4>松美池前桐葉橋下</h4>
+                            <img src="images/matsumi.png" style="max-width:90%;height:auto;">
+                        </td>
+                </table>
+            </div>
+
+            <h3>案内所</h3>
+            <p>
+                学園祭実行委員会では4つのエリアそれぞれに案内所を設置しております。ご不明な点、お困りの点等がございましたら、オレンジ色のテントの案内所までお越しください。または、蛍光オレンジのジャンパーを着用している実行委員にお気軽に声をかけてください。 各案内所の場所は、上図の「<a href="venue#annai" class="textlink">会場案内図</a>」の「iのマーク」をご参照ください。
+
+            </p>
+            <h3>休憩所</h3>
+            <p>
+                日本最大級の会場にて実施される雙峰祭。<br> 会場内で休息を取りたくなることでしょう。
+                <br> 学園祭実行委員会では、会場内各所に休憩所をご用意しております。
+                <br> 会場内を巡った後に一息ついて、次に行く企画について考える際や、 屋台で買った食べ物を召し上がる際にぜひご利用ください。
+                <br> 三か所の休憩所は、以下の時間で運営しております。
+                <br><br> ① 11月4日(金)<br> 3A棟粉とクリーム前：15:30～20:00
+                <br><br> ② 11月5日(土)<br> 3A棟粉とクリーム前・1C棟横駐輪場：10:00～20:00
+                <br> 5C208：10:00～18:00
+                <br><br> ③ 11月6日(日)<br> 3A棟粉とクリーム前：10:00～19:00
+                <br> 1C横駐輪場：10:00～18:00
+                <br> 5C208：10:00～16:00
+                <br>
+            </p>
+
+            <h3>車椅子•授乳場所案内</h3>
+            <h4>車椅子の貸し出し</h4>
+            <p>当学園祭では、車椅子の貸し出しを行っております。車椅子は各エリアの案内所に常備しておりますので、ご利用の際は各案内所にいらしてください。障がい者専用駐車場は、総合研究棟A西駐車場にございます。
+            </p>
+            <h4>授乳場所</h4>
+            <p>学園祭期間中、授乳のためにカーテンが付いた教室を準備しております。ご利用の際は各案内所にいらしてください。
+            </p>
+            <br><br>
+            <h3>落し物・迷子</h3>
+            <p>
+                学園祭会場は大変混雑しますので、小さいお子様やお荷物から目を離されないよう、お願いいたします。 迷子の保護・落とし物の管理は、案内所にて行っております。迷子・落とし物にお気付きの際は、案内所までお越しください。
+            </p>
+
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>

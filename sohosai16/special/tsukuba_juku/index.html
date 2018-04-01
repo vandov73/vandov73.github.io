@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+  <link href="stylesheets/tsukuba_juku.css" rel="stylesheet" type="text/css">
+  <title>筑波塾 | 雙峰祭 | 筑波大学</title>
+</head>
+<body>
+  <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+  <div class="graph">
+    <img src="images/tsukuba_juku.png" class="juku">
+  </div>
+  <div class="about">
+    <div class="box">
+      <h4>お知らせ</h4>
+      <p class="bottom">
+        社会学類　土井隆義先生の講義「青少年犯罪と幸福観のリアル～犯罪社会学の理論から考える～」の動画が公開されました。
+          <a href="https://doc.co/XmJvjh">講義の動画はこちら</a>  </p>
+      <h4>
+        筑波塾とは？
+      </h4>
+      <p class="bottom">
+        筑波大学の学生が普段、受けている授業を来場者の皆さんが体験できる企画です。<br>
+        1回の授業は講義75分、質問時間15分の計90分です。※75分の講義は筑波大学の授業1回と同じ時間です。
+      </p>
+      <div class="left">
+        <h4>
+          対象者は？
+        </h4>
+        <p class="bottom sp">
+          雙峰祭に来場された方なら誰でも参加可能です。
+        </p>
+        <h4>
+          授業に間に合わない・・・
+        </h4>
+        <p class="bottom">
+          筑波塾の授業は途中入室、途中退室可能ですが、授業の開始時間はよく確認して遅刻しないように気を付けてください。
+        </p>
+      </div>
+      <div class="right">
+        <h4>
+          注意事項
+        </h4>
+        <p class="bottom">
+          教室内では、携帯電話の電源を切るか、マナーモードに設定してください。<br>
+          授業中の飲食、喫煙はご遠慮下さい。<br>
+          授業を録画、録音するのは禁止です。<br>
+          途中入室、途中退室の際は、お静かにお願い致します。
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+  <div class="schedule">
+    <div class="box">
+
+      <div class="saturday">
+        <p class="day">
+          11月5日(土)
+        </p>
+        <table>
+          <tr>
+            <td class="up">
+              <p class="time">
+                11：00～12：30
+                <br>
+                　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                池内淳　　　　3A203にて<br>
+                「本と読書と書店と図書館の未来について」
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="up">
+              <p class="time">
+                13：00～14：30
+                <br>
+                　　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                小林正美　　　3A213にて<br>
+                「実験で体験する大学の物理化学」
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="up">
+              <p class="time">
+                15：00～16：30
+                <br>
+
+                <br>
+                　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                土井隆義　　　3A203にて<br>
+                「青少年犯罪と幸福観のリアル～犯罪社会学の理論から考える～」
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sunday">
+        <p class="day">
+          11月6日(日)
+        </p>
+        <table>
+          <tr>
+            <td class="up">
+              <p class="time">
+                11：00～12：30
+                <br>
+                　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                落合陽一　　　3A203にて<br>
+                「メディアアート考えよう」
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="up">
+              <p class="time">
+                13：00～14：30
+                <br>
+                　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                松田昭博　　　3A203にて<br>
+                「競技スポーツのパフォーマンスを支える用具開発」
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="up">
+              <p class="time">
+                15：00～16：30
+                <br>
+                　
+              </p>
+            </td>
+            <td class="down">
+              <p class="content">
+                斎藤環　　　　3A203にて<br>
+                「オープンダイアローグとは何か」
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="add">
+      <p>
+        ＊敬称略
+      </p>
+    </div>
+  </div>
+  <div class="listpc">
+    <div class="phont">
+      <p class="large">
+        講師一覧
+      </p>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/ikeuchi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              池内淳　知識情報・図書館学類<br>
+              テーマ「本と読書と書店と図書館の未来について」
+            </p>
+          </div>
+          <p>
+            近年、出版不況の中、本や雑誌は売れなくなり、書店数も減少の一途をたどっている。
+            その一方で、電子書籍などの新たなメディアが登場し、出版流通の経路は多様化しており、われわれの読書のあり方に変化をもたらしつつある。
+            こうした時代の転換点にあって、今後、本と読書と書店と図書館はどのように変化していくのか、現状と実態を把握するとともに、その未来について考える。
+          </p>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/ochiai.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              落合陽一　情報メディア創成学類<br>
+              テーマ「メディアアート考えよう」
+            </p>
+          </div>
+          <p>
+            昨今メディアアートという単語を耳にしたことがある方も多いはず、
+            今年の授業では落合陽一がメディアアート史を振り返りながら、当該分野についての今後や特徴について講義します。
+            芸術と科学の歴史、現在から未来へと続く表現について知りたい方はぜひお越しください。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/kobayashi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              小林正美　応用理工学類<br>
+              テーマ「実験で体験する大学の物理化学」
+            </p>
+          </div>
+          <p>
+            身の回りの現象を科学の視点から、実験を交えて、平易な言葉で説明します。
+            小学生から一般の方まで、気軽にご参加ください。
+            大学の物理学の雰囲気に少しでも触れていただければ幸いです。
+          </p>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/matsuda.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              松田昭博　工学システム学類<br>
+              テーマ「競技スポーツのパフォーマンスを支える用具開発」
+            </p>
+          </div>
+          <p>
+            近年のオリンピック・パラリンピックでの選手の競技パフォーマンスは最先端の用具開発や計測技術によってサポートされています。
+            本講義では、オリンピック・パラリンピックでの用具開発の国内外のトピックや私たちが進めているスポーツ用具開発に関する研究プロジェクトについて紹介します。
+            この講義を聞けばあなたもオリンピックに行けるかも・・・
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/doi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              土井隆義　社会学類<br>
+              テーマ「青少年犯罪と幸福観のリアル～犯罪社会学の理論から考える～」
+            </p>
+          </div>
+          <p>
+            現在、青少年の生活満足度や幸福度が高まっています。
+            その結果、同世代の犯罪は激減しています。
+            少子化の影響を考慮して、人口比で計算しても同様です。
+            犯行の多くは不満の発露だからです。
+            ところが、彼らの生活環境は厳しさを増しています。
+            相対的貧困率は上昇し、生活困窮家庭も増え、失業率も高留まりのままです。
+            この相矛盾する現象をいかに理解すべきでしょうか。
+            現在の青少年が抱える心性に肉薄し、この謎の解明に挑みます。
+          </p>
+          <a href="https://doc.co/XmJvjh">講義の動画はこちら</a>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/saitoh.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              斎藤環　医学医療系<br>
+              テーマ「オープンダイアローグとは何か」
+            </p>
+          </div>
+          <p>
+            オープンダイアローグ（開かれた対話、以下ＯＤ）とは、フィンランド・西ラップランド地方にあるケロプダス病院において、
+            1980 年代から開発と実践が続けられてきた精神病に対する治療的介入の技法である。
+            薬物治療や入院治療をほとんど行わずに良好な治療成績を上げており、近年国際的にも注目されつつある。
+            本講義では、この手法の背景にあるポストモダン思想や手法の概略を紹介しつつ、ワークショップ形式で対話の可能性を探る。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="listphone">
+    <div class="phont">
+      <p class="large">
+        講師一覧
+      </p>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/ikeuchi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              池内淳　知識情報・図書館学類<br>
+              テーマ「本と読書と書店と図書館の未来について」
+            </p>
+          </div>
+          <p>
+            近年、出版不況の中、本や雑誌は売れなくなり、書店数も減少の一途をたどっている。
+            その一方で、電子書籍などの新たなメディアが登場し、出版流通の経路は多様化しており、われわれの読書のあり方に変化をもたらしつつある。
+            こうした時代の転換点にあって、今後、本と読書と書店と図書館はどのように変化していくのか、現状と実態を把握するとともに、その未来について考える。
+          </p>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/kobayashi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              小林正美　応用理工学類<br>
+              テーマ「実験で体験する大学の物理化学」
+            </p>
+          </div>
+          <p>
+            身の回りの現象を科学の視点から、実験を交えて、平易な言葉で説明します。
+            小学生から一般の方まで、気軽にご参加ください。
+            大学の物理学の雰囲気に少しでも触れていただければ幸いです。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/doi.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              土井隆義　社会学類<br>
+              テーマ「青少年犯罪と幸福観のリアル～犯罪社会学の理論から考える～」
+            </p>
+          </div>
+          <p>
+            現在、青少年の生活満足度や幸福度が高まっています。
+            その結果、同世代の犯罪は激減しています。
+            少子化の影響を考慮して、人口比で計算しても同様です。
+            犯行の多くは不満の発露だからです。
+            ところが、彼らの生活環境は厳しさを増しています。
+            相対的貧困率は上昇し、生活困窮家庭も増え、失業率も高留まりのままです。
+            この相矛盾する現象をいかに理解すべきでしょうか。
+            現在の青少年が抱える心性に肉薄し、この謎の解明に挑みます。
+          </p>
+            <a href="https://doc.co/XmJvjh">講義の動画はこちら</a>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/ochiai.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              落合陽一　情報メディア創成学類<br>
+              テーマ「メディアアート考えよう」
+            </p>
+          </div>
+          <p>
+            昨今メディアアートという単語を耳にしたことがある方も多いはず、
+            今年の授業では落合陽一がメディアアート史を振り返りながら、当該分野についての今後や特徴について講義します。
+            芸術と科学の歴史、現在から未来へと続く表現について知りたい方はぜひお越しください。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="retu">
+      <div class="hidari">
+        <div class="set">
+          <img src="images/matsuda.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              松田昭博　工学システム学類<br>
+              テーマ「競技スポーツのパフォーマンスを支える用具開発」
+            </p>
+          </div>
+          <p>
+            近年のオリンピック・パラリンピックでの選手の競技パフォーマンスは最先端の用具開発や計測技術によってサポートされています。
+            本講義では、オリンピック・パラリンピックでの用具開発の国内外のトピックや私たちが進めているスポーツ用具開発に関する研究プロジェクトについて紹介します。
+            この講義を聞けばあなたもオリンピックに行けるかも・・・
+          </p>
+        </div>
+      </div>
+      <div class="migi">
+        <div class="set">
+          <img src="images/saitoh.png" class="face">
+        </div>
+        <div class="naiyou">
+          <div class="intro">
+            <p>
+              斎藤環　医学医療系<br>
+              テーマ「オープンダイアローグとは何か」
+            </p>
+          </div>
+          <p>
+            オープンダイアローグ（開かれた対話、以下ＯＤ）とは、フィンランド・西ラップランド地方にあるケロプダス病院において、
+            1980 年代から開発と実践が続けられてきた精神病に対する治療的介入の技法である。
+            薬物治療や入院治療をほとんど行わずに良好な治療成績を上げており、近年国際的にも注目されつつある。
+            本講義では、この手法の背景にあるポストモダン思想や手法の概略を紹介しつつ、ワークショップ形式で対話の可能性を探る。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>

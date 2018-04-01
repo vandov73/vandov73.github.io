@@ -1,0 +1,176 @@
+html {
+  font-size:;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,'Arial','游ゴシック',YuGothic,'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','メイリオ',Meiryo,sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #fff3e9;
+  height: 100%;
+  color: #1f0000;
+}
+/*****HEADER*****/
+
+div.heading_black {
+  color: #fff3e9;
+  background-color: #1f0000;
+}
+
+div.heading_black p {
+  padding: 1.1rem;
+  margin: 0;
+  line-height: 3rem;
+}
+
+div.heading_black a:link,
+div.heading_black a:visited,
+div.heading_black a:hover,
+div.heading_black a:active {
+  color: #fff3e9;
+  text-decoration: none;
+}
+
+div.heading_image img {
+  width: 100%;
+}
+
+/*****メイン*****/
+
+main {
+  padding: 4rem 10%;
+  margin: 0;
+  font-size: ;
+  min-height: 100%;
+}
+main p {
+    padding: 0 2rem;
+    font-size: 1.1em;
+}
+
+main dt {
+  border-left: 0.5rem solid #ff931e;
+  padding-left: 0.5rem;
+  font-size:;
+}
+
+main dd {
+    padding: 0 2rem;
+    font-size: ;
+    margin: 0.5rem 1rem;
+}
+
+
+h1 {
+  color: #ff931e;
+  font-size: ;
+  border-bottom: 5px solid #ff931e;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: ;
+  padding: 0 1rem;
+  border-bottom: 3px solid #ff931e;
+}
+
+div.toppage_button {
+  width: 100%;
+  height: auto;
+  border: 2px solid #1f0000;
+  font-size:;
+  margin: 1rem 0;
+}
+div.toppage_button a {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+td.blue {
+  color: blue;
+}
+
+td.event {
+  background-color: #ffd5ab;
+  padding: 0 !important;
+}
+
+td.event a {
+  display: block;
+  height: 100%;
+  padding: 0.5rem 0.5rem 0;
+}
+
+input#submit_button {
+    padding: 15px 40px;
+    font-size: ;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+    display: block;
+    margin: 0 0 0 auto;
+}
+div.form_div {
+  background-color: #ddd;
+  padding: 2rem;
+  border: 2px solid black;
+}
+.theme {
+  font-size: 1.5em;
+  font-weight: bold; 
+  color: #1f0000;
+}
+.theme_h {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 1px solid #1f0000;
+  border-radius: 5px;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  background-color: #ff931e;
+  color: white;
+}
+form p {
+  font-size: 1em;
+  font-size: 2rem;
+  font-size: 2rem;
+}
+
+
+footer {
+  background-color: #1f0000;
+  text-align: center;
+  font-size: ;
+  color: #fff3e9;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 1rem 1.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: ;
+  }
+  
+  
+}
+
+@media screen and (max-width:768px) {
+  html {
+    
+  }
+  
+  main {
+    padding: 1rem;
+  }
+}
+
+

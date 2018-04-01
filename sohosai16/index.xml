@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>雙峰祭 | 筑波大学</title>
+    <link>http://www.sohosai.tsukuba.ac.jp/</link>
+    <description>Recent content on 雙峰祭 | 筑波大学</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	<atom:link href="http://www.sohosai.tsukuba.ac.jp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/about/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 雙峰祭とは-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 雙峰祭とは 雙峰祭紹介 霊峰筑波山の紅葉が美しき深秋の候、筑波大学では11月4日(金)～6日(日)に一年を通じて最大のイベントである学園祭「雙峰祭」が開催されます。例年の雙峰祭への来場者はなんと3万人以上！日本でも指折りの広大なキャンパスを生かし、食品販売から物品販売、そして筑波ならではの学術企画など400以上の多種多様な企画が学生や教職員の手によって運営されています。筑波大学の多様性を象徴しているともいえる数々の企画は、きっと子供から大人まで多くの方を楽しませてくれるでしょう。皆様のご来場を一同ぜひお待ちしております。
+昨年の様子                           雙峰祭の歴史 雙峰祭ヒストリーはこちら ダイジェスト    {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/area_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/area_guide/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 雙峰祭エリアガイド-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 雙峰祭エリアガイド  エリア紹介 第一エリア 「模擬店街の華」と言われるほどの賑わいを見せる第一エリアでは、松美池をバックにライブステージが設置されているほか、サークルによるコンサート披露、番組発表会などバリエーション豊富な企画が各棟で行われています。  第二・第三エリア エリア中央に芝生と池が広がる第二・第三エリアにはUNITEDステージが設置されます。昼から夜まで、音楽サークルやダンスサークルのパフォーマンスが断えることなく行われています  大学会館エリア 大学会館では、音楽、演劇、踊り等の迫力あるパフォーマンスが楽しめるステージ企画から、魅力的な作品の数々を飾る展示企画まで、様々な企画が行われます。講堂とホールがそれぞれ、企画の特色を感じさせる空間となります。
+ 体芸エリア 5C棟を中心とした体芸エリアでは、筑波大学の芸術専門学群生などが「キゴウ」を公式テーマに作り上げた企画が催されています。芸専生による展示やハンドメイド雑貨の販売など、体芸エリアならではの企画を味わってみてください。  ステージ紹介 UNITEDステージ UNITEDステージは石の広場に設置され、松美池ステージと並んで雙峰祭の華となるステージです。昼は石の広場を利用した開放的な演出、夜は音響照明を利用した華やかなステージとなっており、バンドによる演奏やダンスを中心に、様々なジャンルのパフォーマンスを楽しむことができます。
+なお、雨天時には一部企画(＊印の付いた企画)が第一体育館にてパフォーマンスを行います。  松美池ステージ 松美池ステージは、第一エリアと大学会館の間にある松美池の石段上に設置され、UNITEDステージや大学会館ステージとともに学園祭の華となるステージです。昼は明るく盛り上がり、夜は独特の空間を味わえるパフォーマンスが行われます。昼夜を通して様々な種類の企画が実施され、子供から大人まで、幅広い年齢層の方に楽しんでいただけるステージとなっております。雨天時には、一部企画が第一体育館にてパフォーマンスを行います。  松美芝生 松美池ステージのすぐ近くの芝生で武道系の企画がパフォーマンスを行います。
+ 大学会館 大学構内のほぼ中央に位置する大学会館の各ホールでは、ゲストを招いての講演会などの企画が行われます。他のステージとはまた趣向の違う企画にぜひ参加してみてくださいね。
+  {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/attention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/attention/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 注意事項-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 注意事項 酒類の取り扱い  今年度の学園祭においては、全企画による酒類の販売及び配布を禁止しております。また、企画団体・来場者の方による学内への酒類の持ち込みもご遠慮いただいております。酒類に関するトラブルを未然に防ぎ、来場されたすべての方々に気持ちよく学園祭を楽しんでいただくために、何卒ご理解とご協力をお願いいたします。 分煙 学園祭期間中、全ての参加者の方にとって過ごしやすい空間を作るために分煙をお願いしております。喫煙スペースを各エリアに設置しておりますので、そちらをご利用ください。 場所：人間系学系A棟裏、3B棟喫煙ルーム、1B棟1階横喫煙所、大学会館郵便局裏、5C棟北 喫煙スペースの場所は、こちらの地図に記載しております。 ごみの分別について 雙峰祭では、以下の８項目にわたる分別を行っています。来場者の皆様にもご協力をお願いいたします。
+ 燃やせるごみ 使い捨て食器・エコ食器のフィルム・トレー・わりばし・紙類・ビニール袋・プラスチック・ラップ・竹串・セロファン・紙パック・ゴム製品・飲料用以外のペットボトル等のキャップ・ペットボトルラベル　etc.   生ごみ 食べ残し　etc.   空きかん アルミ缶・スチール缶・缶詰の缶　etc.   空きびん 飲料用の瓶   ペットボトル ペットボトル   ペットボトルキャップ 飲料用のペットボトルのキャップ   燃やせないごみ 銀紙・アルミホイル・穴を空けたスプレー缶・瓶のふた・カイロ・金属類・サイリウム　etc.   エコ食器 エコ食器のフィルムをはがしたもの   今年もペットボトルの分別回収を徹底させます。ラベルははがして「燃やせるごみ」、キャップは「ペットボトルキャップ」の専用のごみ箱へ分別お願いします。 当日使用可能なごみ箱の詳しい場所については、エリア別企画紹介のごみ箱マークをご覧ください。雨天時・強風時におきましては、ごみ箱の位置を変更または撤去します。ご理解のほどよろしくお願いいたします。 エコ食器 学実委では雙峰祭をより環境に配慮したものにするために、企画団体にエコ食器の利用を呼びかけています。エコ食器とは表面にフィルムが貼ってある容器です（写真①）。
+使用後はそのフィルムを剥がし、フィルムは燃やせるゴミ、容器はエコ食器回収BOXへ分別します。回収された容器はリサイクルセンターで原料として再利用されます。このようにエコ食器は環境にやさしい仕組みとなっています。 ぜひ、回収にご協力ください。 回収方法 ➀エコ食器の上についている小さいつまみを折ります。（写真➁） ➁つまみをつかんで表面の透明なフィルムを剥がします。（写真➂） ➂容器は「エコ食器回収ＢＯＸ」、フィルムは「燃やせるゴミ」に捨ててください。 写真①  写真②  写真③    交通規制、自転車撤去 交通規制、自転車撤去についてはこちら</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/contact/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} お問い合わせ-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} お問い合わせ  E-mail  TEL/FAX 029-853-2899 住所 〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204   {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/gallery/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 当日写真集-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 当日写真集 雙峰祭前夜祭・本祭中、学園祭実行委員会の雙峰祭公式ホームページ担当者がカメラを持って巡回します。会場の盛り上がっている様子を撮影し、Flickrにて随時更新します。
+クリックでアルバムに移動します。
+    {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/history/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 雙峰祭ヒストリー-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 雙峰祭ヒストリー  今年で42回目を迎える雙峰祭(そうほうさい)。 今でこそ数多くの企画を誇り、広い地域から沢山の方にご来場いただける大規模な学園祭となりましたが、その歴史はまさに山あり谷あり。 そんな雙峰祭(そうほうさい)のこれまでを皆さんに一部、ご紹介したいと思います。 第一回からのパンフレット
+  1975~  今から遡ること42年前。 筑波大学創立2年目の1975年に、第一回学園祭、 紫桐祭(しとうさい)が開催されました。 「筑波大学で学園祭を」という学生たちの思いから祭りの歴史は始まったのです。 そして、翌年から学園祭の名称は現在と同じ「雙峰祭(そうほうさい)」に変わりました。 1980~  第一回、第二回と大盛況に終わった学園祭も毎年上手くいっていたわけではありません。 一部企画の承認を巡って大学側から下された1980年と1984年の雙峰祭(そうほうさい)の中止。 これは学生たちによる自主的な活動としての学園祭のあり方を根幹から問い直すものでした。 1988年の雙峰祭(そうほうさい)は、昭和天皇のご体調の悪化に伴うイベント自粛の雰囲気の中開催されました。 「土浦花火大会の中止」など学生たちの身近に影響が表れてくるにつれ、学内では学園祭に関する流言や混乱が生じましたが、学生たちは開催の意志を曲げることはありませんでした。 このような様々な困難を乗り越えて、雙峰祭(そうほうさい)の土台はだんだんと築き上げられたのです。 当時のパンフレットからも、学生たちの学園祭にかける強い思いが伝わってきますよね。    1980年の雙峰祭のパンフレット
+   2001~ 2000年の雙峰祭の様子
+  2001年からは、大学内での研究成果の公開を目的とした企画を「学術研究企画」として取りまとめ、筑波大学のアカデミックな一面として雙峰祭(そうほうさい)で押し出す試みが始まりました。 これは模擬店を主としていたこれまでの雙峰祭(そうほうさい)とは一線を画す企画でした。 学術研究企画は、今では10年以上続く雙峰祭(そうほうさい)の名物のひとつとなっています。 委員会開催企画には他にも、樽酒振る舞い企画など形を変えながら現在まで続いているものもあるんです。 そして2005年にはつくばと秋葉原を結ぶつくばエクスプレスが開業し、雙峰祭(そうほうさい)に非常に大きな転機をもたらしました。 かつては「陸の孤島」とも呼ばれた筑波大学ですが、都心への交通の便が格段に向上したことで、茨城県外からの来場者が雙峰祭(そうほうさい)でも急激に増加しました。 また、2013年の2学期制移行に伴い、雙峰祭(そうほうさい)の開催が10月から11月へ変更され、現在と同じ形式の学園祭が成立しました。 2000年の雙峰祭の様子
+  2016~  そして、現在。雙峰祭(そうほうさい)は400以上の多様な企画と、３万人以上の来場者が全国から訪れる学園祭に成長しました。 これまでの歴史の中で変わったもの、変わらないもの、どちらも今の雙峰祭(そうほうさい)の大切な一部となっています。 今回ご紹介したのは、その中のほんの一部でしたがいかがだったでしょうか。 当日は祭りの雰囲気とともに、紡がれてきた歴史の香りも楽しんでいただければ幸いです。    {{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/inside/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/inside/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 企画・学内の方へ-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 企画・学内の方へ   新しいお知らせ・更新情報  企画•学内の方へ2017.4.25  松美池ステージについてのお知らせを公開しました。
+ダウンロードはこちら↓
+松美池ステージについてのお知らせ  For project participants2017.5.5  English requirements is available.
+Click the link to download.↓
+英語版募集要項(EnglishRequirements)  企画•学内の方へ2017.4.25  募集要項を公開しました。
+ダウンロードはこちら↓
+一般企画用募集要項 ステージ企画用募集要項  企画•学内の方へ2016.11.2  調理企画用マニュアルを公開しました。
+ダウンロードはこちら
+調理企画用マニュアル  企画•学内の方へ2016.11.2  水道地図の訂正版を公開しました。
+ダウンロードはこちら
+水道地図訂正資料 水道地図
+ 企画•学内の方へ2016.10.29  一般企画用マニュアルの訂正版を公開しました。
+ダウンロードはこちら
+一般企画用マニュアル(屋内)訂正記事 一般企画用マニュアル(屋内)
+一般企画用マニュアル(屋外)訂正記事 一般企画用マニュアル(屋外)
+一般企画用マニュアル(屋内)補足記事  企画•学内の方へ2016.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/interview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/interview/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} インタビュー-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} インタビュー マスキャラインタビュー 今回は雙峰祭のマスコットキャラクター考案者である、堀江さんにお話を伺いました。
+実行委員：雙峰祭のマスコットキャラクター考案者である堀江さんにお話を伺いたいと思います。まず、学年・学類・所属団体・ニックネームを教えてください。
+堀江：知識情報・図書館学類2年次の堀江冬芽です。落語研究会に所属していて、そこではよみと呼ばれています。
+実行委員：次に、マスコットキャラクター公募への応募のきっかけ、理由を教えてください。
+堀江：もともと絵本が好きで、自分で絵を描くこともありました。加えてデザインも好きだったので、キャラクターデザインにも興味を持って応募に至りました。
+   実行委員：採用されたときはどんな気持ちでしたか？
+堀江：実行委員会の方からメールで連絡が来たときは意外にも思いましたが、とても嬉しかったです。ほかの方のデザインとは違って私は色鉛筆でのデザインだったので、採用されたと思うと感慨深い気持ちになりました。
+実行委員：モリノスの設定の紹介をお願いします。
+堀江：森の精という精霊的な存在で、性格は温厚で穏やかです。森の出身なので、海の生物が苦手という設定があります。
+   実行委員：雙峰祭のマスコットキャラクターを作るために、どのようなところに工夫を凝らしましたか。
+堀江：これまでの雙峰祭のマスコットキャラクターを見ると、筑波大学の校章である桐の葉や紫色が使われているなあと思ったので、羽織っているマントを紫色にして筑波大学らしさを出しました。また、デザインを考える際には今年のテーマ「全部森のせいだ。」をふまえました。
+実行委員：最後に、モリノスの魅力を教えてください。
+堀江：目が黒めがちなところ、それからキャラクターとしての汎用性が高いところも魅力ですね。
+実行委員：貴重なお話をありがとうございました。      {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/kikaku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/kikaku/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 企画案内-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 企画案内 委員会開催企画 来場者参加型部門   県内の酒造から協賛していただいたお酒を来場者の方々に無料で配布します。来場お待ちしております。    学園祭の定番「脱出ゲーム」がつくばにやってきた！ドキドキ、ワクワクの非日常体験があなたを待ってます。     小学生までの子どもたちを対象！家族で楽しめる子ども劇と、集めて景品がもらえるスタンプラリーです！    茨城県のゆるキャラ®️達が雙峰祭に遊びにやってくる！！！みんなでお祭りをもりあげよう！！！    筑波大学は広い！ しかし！ 日本の縮図が筑波大学の中にある！ 食べ歩こう。日本全国のS級グルメを。     つくばを世界に発信！学園祭生中継プロジェクトは学園祭の様子を余すことなく動画配信します。   学術部門   受験応援企画は、これから筑波大学の受験を目指す、高校生や受験生を対象とした企画です。    筑波大学の授業を、来場者の皆さんが体験できる企画です。 学生から人気の高い教員による講義を受けてみませんか?     「つくば」で行われている最先端の研究に、ぜひ触れて見て下さい！   前夜祭・後夜祭部門   雙峰祭の華々しいスタートを飾る素晴らしいステージパフォーマンスをお届け！！    企画団体による企画宣伝の祭典！ コレを見れば雙峰祭を何倍も楽しめる！！     一昨年より始動した筑波大学のミスコン・ミスターコン、今年の候補者・パフォーマンス内容は…！？    No.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/link/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 相互リンク-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 相互リンク 他大学の学園祭
+東北大学 第68回東北大学祭
+10/28(金)~10/30(日)
+早稲田大学 所沢キャンパス祭
+10/30(日)
+芝浦工業大学 第44回芝浦祭
+11/4(金)~11/6(日)
+東京理科大学葛飾キャンパス 葛飾地区理大祭
+11/19(土),11/20(日)
+ {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/news/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} お知らせ-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} お知らせ 新しいお知らせ・更新情報  {{ template &#34;partials/news.html&#34; . }}     {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/outline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/outline/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 開催概要-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 開催概要 開催日程  前夜祭 11月4日（金） 15:30〜21:00 ※前夜祭の開催場所は第二・第三エリアのみとなります。 本祭 11月5日（土） 10:00〜21:00 11月6日（日） 10:00〜21:00 ※エリアにより終了時刻は異なります。 後夜祭 11月6日（日） 18:00〜20:30  マスキャラ・テーマ   マスキャラインタビュー はこちら
+委員長挨拶  こんにちは。平成28年度筑波大学学園祭実行委員会委員長の矢作祐士です。筑波大学学園祭「雙峰祭」は今年で42回目を迎えます。リオオリンピックが開催されている8月現在、多くの日本人が、不可能だと言われた壁を打ち破り入賞やメダル獲得の実績をあげています。我々委員一同もその姿に倣い、既成概念による壁を破り、雙峰祭に新たな歴史を刻むべく日々活動しております。 雙峰祭では、研究学園都市つくばならではの学術企画や、ステージ発表、模擬店街など学生や教職員による多種多様な企画が本学の広大なキャンパスで行われます。 筑波大学の魅力が存分に味わえる三日間、多くの方のご来場を心から願っております。   {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/cirfse1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/cirfse1/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    宇宙の歴史の暗黒部分を解明する 触媒は世界を変える！/排熱を刈り取る低コスト熱電発電素子 筑波大学数理物質融合科学センター (CiRfSE)  CiRfSE宇宙史拠点では、南極望遠鏡を用いた暗黒銀河の研究、ロケット実験による宇宙背景ニュートリノの探索、CERN LHC加速器を用いた質量起源のヒッグス粒子の研究、クォークグルオンプラズマの研究、宇宙元素合成の研究、の5大プロジェクトを推進し、ビッグバンから生命発生に至る宇宙史の解明と、暗黒物質、暗黒銀河の謎の解決を目指している。 CO2を有用化合物に変換して削減する技術や燃料電池などの水素社会を構築するための科学技術において常に触媒が登場する。CiRfSE環境エネルギー材料拠点では、基礎科学に基づいた触媒設計に取り組んでいる。また、二次電池技術を転用した新しいタイプの熱電変換素子（二次電池型熱発電）を提案している。従来型の熱発電方式と原理が異なり、無限の可能性を秘めている。
+ 日時: 11/4,11/5　10:00〜11:00 担当者: 江角晋一（准教授） 杉浦哲郎（Ｄ１） 青山遼（Ｄ１） 武内勇司(准教授) 八木俊輔（Ｍ２) 中井直正(教授) 新田冬夢（助教） 永井誠(研究員)  光遠（Ｍ１） 渋谷陸（Ｄ２） 白石一真（Ｍ１） 福住勇矢（Ｍ２） 金谷和至（教授）  リンク: 数理物質融合科学センター http://www.pas.tsukuba.ac.jp/~CiRfSE/   COBNAD宇宙背景ニュートリノ探索ロケット実験 http://hep.px.tsukuba.ac.jp/COBAND/   南極望遠鏡 http://www.px.tsukuba.ac.jp/~nakai/astroobs/antarctica.html     数理物質融合科学センター 宇宙史国際研究拠点</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/cirfse2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/cirfse2/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    準備中 臨海施設で展開する海洋生物学の研究最前線 --- 数理物質融合科学センター 下田臨海実験センターで展開されている研究・教育活動の概要をご紹介するとともに、深刻な環境問題である海洋酸性化に関する最新の研究成果をご説明します。
+ 日時: 11/4,11/5　両日とも常に展示しております。 内容:   担当者: 今　孝悦 リンク:  http://www.shimoda.tsukuba.ac.jp/    　---   {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/ffpri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/ffpri/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    高性能マイクを用いた新しいシロアリ検出法 国立研究開発法人森林総合研究所 木材研究部門木材改質研究領域、構造研究利用領域  超音波を感知できる超高感度のセンサに、さらにマイクロホンを向けた先から聞こえる“音”だけ検出できるような高い指向性を示すマイクロホンを搭載した新しいシロアリ被害検出装置についてご紹介します。
+ 日時: 11/5,11/6　両日とも13:00～14:00 担当者: 大村和香子（木材研究部門木材改質研究領域長） 原田真樹（木材研究部門構造研究利用領域 材料接合研究室長） リンク: 森林総合研究所 http://www.ffpri.affrc.go.jp       {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/jircas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/jircas/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    世界の食料・農業・環境問題の解決をめざして！ 国際農林水産業研究センター（JIRCAS）  JIRCASが調査研究しているプロジェクトのポスター展示の他、ササゲ豆とオイルパーム果房とオイルパーム廃棄木樹液を標本展示します。
+ 日時: 11/5,11/6　両日とも12:00～13:00 担当者: 森下賢己（情報広報室　主任研究員） リンク:  https://www.jircas.go.jp/   ササゲ豆
+  オイルパーム果房
+    {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/nims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/nims/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    安全で安心な暮らしの実現に貢献する最先端のナノテク研究 物質・材料研究機構（NIMS）国際ナノアーキテクトニクス研究拠点（MANA）  息をふきかけるだけで病気を早期発見？！人間の嗅覚を模倣し、しかも人間には感知できないレベルでの検出を可能にしたスマホサイズのセンサー「超高感度センサーMSS 」のデモを実施します。このほかにも、私たちの生活を大きく変えつつある最先端のナノテク研究成果を、世界屈指の研究開発センターであるMANAがご案内します。  日時: 11/5,11/6　両日とも12:00～13:00 担当者: 中山知信MANA事務部門長（5日） 吉川元起グループリーダー（5日） 今村岳ICYS-MANA研究員（6日） 葉山雅アウトリーチチームリーダー（6日） リンク: ナノメカニカルセンサーラボ http://y-genki.net/homejp/ MANA http://www.nims.go.jp/mana/jp/index.html NIMS http://www.nims.go.jp/    呼気の成分を識別し健康状態をモニタリングするモバイル機器応用のイメージ
+   {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/s_gotochi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/s_gotochi/</guid>
+      <description>S級ご当地通り | 雙峰祭 | 筑波大学{{ template &#34;partials/special_head.html&#34; . }}{{ template &#34;partials/menu.html&#34; . }}筑波大学って広いんです！筑波大学は、広大な土地を有していますが、本学の”広さ”はそれだけではありません！日本全国から広く学生が集まっている点も、本学の“広さ”として挙げられます。そんな全国から来た学生たちが、日本各地の名産品・食文化を紹介します。
+ぜひS級ご当地通りにお越しください。
+参加企画一覧まーさん屋 by 沖縄県人会既製品のサーターアンダギーの販売と沖縄そばの調理元祖！広島県人会のお好み焼き by 広島県人会広島風お好み焼きの調理群馬県人会 焼きまんじゅう by 筑波大学群馬県人会群馬のご当地スイーツである焼きまんじゅうの販売青森県人会 by 青森県人会りんごジュース・せんべい汁・バラ焼きなど様々な郷土料理の販売比較雑煮学類 by 比較雑煮学類企画実行委員会日本全国の様々なお雑煮を作成し豆知識をまとめたリーフレットを配布するホッケー部の玉こん by フィールドホッケー部玉こんにゃくの販売丼処農ヘル by 農業ヘルパーつくば市の農家さんの野菜を使ったかき揚げ丼の販売兵庫県民明石焼き by 兵庫県民会兵庫県出身の学生による明石焼きの販売手話サークル屋台・伝統の広島風お好み焼き by 筑波大学手話サークル毎年恒例手話サークルの広島風お好み焼きを販売ほうとう by 山梨県人会山梨県の郷土料理ほうとうを振る舞うと共に山梨県について知ってもらう秋田の味噌たんぽ by 筑波大学秋田県人会味噌たんぽという秋田県の郷土料理を販売山形から芋煮が届きました。 by 社学’16s社学1年が免許合宿で訪れた山形の教習所の方々の協力を得て社学の芋煮を作る牛国 by 国際総合学類34期国際総合学類34期が屋台を運営する{{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/comedy_live/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/comedy_live/</guid>
+      <description>  つくばお笑いライブ2016 | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}  {{ template &#34;partials/menu.html&#34; . }}  つくばお笑いライブ2016  後夜祭恒例企画つくばお笑いライブ2016！
+大爆笑のステージがここに！！
+2016/11/6(日) 19:20頃～
+石の広場UNITEDステージ
+入場無料
+サインがもらえるチャンスも！
+ 出演者 東京03  経歴 キングオブコント2009 優勝 第4回お笑いホープ大賞 優勝 出演 ゴットタン 白黒アンジャッシュ スクールナイン 東京03角田&amp;amp;ゆってぃのぶらり作曲の旅    ブラットピーク  出演 バカ爆走！ spark！     注意・禁止事項 出演者は変更になる場合があります。予めご了承ください。
+公演中は携帯電話、ゲーム機、アラームなど、音の鳴る電子機器の電源はお切り下さい。
+また、ビデオカメラやテープレコーダーなどによる録画・録音及びカメラ・携帯電話などによる写真撮影といった記録行為は一切禁止とさせていただいております。
+お守りいただけない場合はご退場いただくこともございますので予めご了承ください。
+ {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/cybernics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/cybernics/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    重介護ゼロ社会を実現するサイバニクス！ サイバニクス研究センター  身体機能を改善・補助・拡張することができる世界初のサイボーグ型ロボットHALの実演を交えながら、新学術領域サイバニクスについて説明いたします。
+ 日時: 11/5,11/6　両日とも10:30〜,11:30〜,12:30〜,13:30〜,14:30〜 担当者: 高嶋 山海 遠山 中川 馬場 リンク:  http://www.ccr.tsukuba.ac.jp/index.html      DNAブロック模型（１億倍拡大）に触れてみてください。
+  本物のDNAも展示します。（先着50名まで抽出実験できます。）
+    {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/escape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/escape/</guid>
+      <description>  夢幻迷宮からの脱出 | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}  {{ template &#34;partials/menu.html&#34; . }}  学園祭の定番「脱出ゲーム」がつくばにやってきた！
+ドキドキ、ワクワクの非日常体験があなたを待ってます
+2016/11/5(土) 10:00～19:00
+2016/11/6(日) 10:00～17:00
+2D402～407
+  概要 脱出ゲームを 2 セット運営する。参加者に数人のグループを作ってもらい、制限時間内にそれぞ れの部屋で謎を解いてもらう。 ストーリー “眠りの間”、筑波大学の一角に突如現れた不思議な空間。そこでは来るものすべてを夢の世界へ といざなう。。。ひとたびそこで眠りに落ちたものは二度と目覚めないという。閉ざされた夢の世界、 主人公は数々の謎を解き無事目覚めることができるのか！？ 対象年齢 12歳以上推奨(12歳未満の方でも参加は可能です) 所要時間 ３５分     禁止事項  公序良俗に反する一切の行為 会場内での写真撮影 携帯電話やパソコン等のご使用 接触禁止マークのある箇所への接触 故意による仕掛けの破壊 扉や窓からの強引な脱出 一度挑戦した部屋への再挑戦 内装・仕掛け・謎・解答に関わる一切のネタバレ  注意事項 本企画は原則として複数人での参加となります。そのため、他の来場者と力を合わせて脱出することになる場合もございます。
+どなたでもご参加いただけますが、小学校卒業程度の知識を要するエリアもございます。
+一度挑戦した脱出ゲームに再挑戦することはできません。受付スタッフがいずれかの脱出ゲームへの挑戦経験を尋ねて配慮しますので、その指示に従ってください。
+大きなお荷物はこちらでお預かりすることが可能です。受付スタッフに気軽にお申し付けください。その際、お渡しする荷物札をなくされないようお気を付けください。
+制限時間内に脱出できなくても、二度と外に出られないというようなことはございませんので、ご安心ください。
+本企画は他の脱出ゲームよりもスピードが一層重要になってきます。また、謎の難易度も簡単に解けるようなものではありません。
+ルールを守れない、あるいは禁止事項に書かれていることをなさる場合は、脱出失敗扱いとして会場から退場いただく場合がございます。
+ {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/grand_prix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/grand_prix/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }} 雙峰祭グランプリ | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} 気に入った企画に投票して豪華賞品をGET!
+  日時   投票期間･･･前夜祭15:30~本祭2日目14:59  抽選会･･･本祭1日目、本祭2日目 15:00~15:45(開場14:30)  表彰式･･･本祭2日目の後夜祭   場所   抽選会　1D201  表彰式　UNITEDステージ   気に入った企画に投票して企画の頂点を決めよう！ 企画検索システムで投票して抽選会場に行くと、本祭1日目と本祭2日目に開かれる抽選会に参加できます。
+スマートフォンなどをお持ちでない方も、中央図書館前のテントで投票を行えば抽選会への参加が可能です。
+抽選会は14:30から入場開始、各日先着250名なので注意してください。 抽選会ではAmazonギフト券5000円分などの豪華景品が当たりますので是非ご参加ください！
+得票数が上位の企画は後夜祭にて表彰と豪華景品の授与を行います！
+たくさんの投票をお待ちしております！
+ 参加方法 ①投票しましょう！
+②1D201に行きましょう！
+③抽選に参加できます！
+ スマートフォンなどをお持ちの方 ①企画検索システムから投票してください。
+②投票完了画面を1D201の抽選会会場の入り口で見せてください。
+スマートフォンなどをお持ちでない方 ①中央図書館前テントで投票してください。
+②抽選券を1D201の抽選会会場の入り口で見せてください。
+   {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/kek/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/kek/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    ”知りたい”が加速する－宇宙・物質・生命の謎を解くKEK－ 高エネルギー加速器研究機構（KEK）  高エネルギー加速器研究機構（KEK）は、加速器を用いて、宇宙の始まりの解明につながる素粒子や原子核の研究を行うとともに、物質と生命の構造や機能を明らかにする研究を行っています。同時に、実験を支える高性能の加速器や、最高の分解能力を持つ検出器の開発で最先端を走ってきました。また新薬や新材料などの開発において、産業界との連携も進めています。そしてKEKには、総合研究大学院大学（総研大）の高エネルギー加速器科学研究科が設置され、幅広い視野を持った国際的で独創性豊かな研究者の養成と、従来の学問分野の枠を越えた独創的学術研究の開拓・推進を行っています。
+今回のつくば研究紹介では、筑波大学出身者をはじめとするKEKの研究者が、KEKでの研究活動や総研大の教育活動についてお話しします。研究者を目指す中学生や高校生の参加も大歓迎！お気軽にお立ち寄りください。  日時: 11/5　13:00～14:00 11/6　15:00～16:00 担当者: 総合研究大学院大学高エネルギー加速器科学研究科
+高エネルギー加速器研究機構広報室  リンク: 高エネルギー加速器研究機構 https://www.kek.jp/ja/ 総合研究大学院大学高エネルギー加速器科学研究科 http://kek.soken.ac.jp/sokendai/    ２０１７年の実験開始に向け改造が進むBelle II（ベルツー）検出器
+  KEKで学ぶ総合研究大学院大学の学生、連携大学院の学生、特別共同利用研究員などが一堂に会して日頃の研究成果を発表するイベント（スチューデント・デイ）のポスター発表の様子
+   {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/kodomo_kikaku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/kodomo_kikaku/</guid>
+      <description>  子ども企画 | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}      「たからもの～ぼくと魔法使(まほうつか)いのふしぎな出会(であ)い～」
+ 11月5日(土)12:00～13:00
+11月6日(日)12:00～13:00
+晴天時：松美池ステージ
+雨天時：1B408  あらすじ 小学3年生のまさやは、ある日両親とケンカしてしまう。家を飛び出したまさやが出会ったのは、黒い男の子の魔法使いと、白い女の子の魔法使い。2人の魔法使いとの出会いによってまさやが得たものとは…？
+そして、まさやは本当に大切なものに気がつくことはできるのか……？  子ども劇とは？ 子ども向けに上演される劇です！
+会場の松美池ステージの前では、たくさんの人が座りながら劇を見ることができます。
+お昼ごはんを食べながら、家族みんなでゆっくりと楽しいひとときをお過ごしください！  みどころ 劇中には実験やクイズなど、見ている人も一緒になって楽しめる仕掛けが…！？
+主人公たちと一緒に劇の世界を120%楽しんじゃおう！     11月5日(土)10:00～18:00
+11月6日(日)10:00～16:00
+景品交換所…晴天時：中央図書館南テント
+雨天時：1C棟3階ソファー  ぺったんこラリーとは？ 子どもが楽しめる色々な企画にスタンプを設置した、子ども向けのスタンプラリーです☆
+スタンプを集めると素敵なプレゼントがもらえるよ！
+色々な企画をまわって景品をもらっちゃおう！  ここがポイント！ スタンプが置かれている企画は、どれも楽しいものばーっかり！
+スタンプをもらうだけじゃなくて、ひとつひとつの企画を楽しんじゃおう！
+スタンプを集めれば集めるほど、たくさんの景品がもらえるよ！
+大学内を歩き回ってたくさんのスタンプを集めよう！     {{ template &#34;partials/footer.html&#34; . }}  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/kouyasai_oc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/kouyasai_oc/</guid>
+      <description>後夜祭オープニングセレモニー | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}   11月6日18：00～18：40   石の広場 UNITEDステージ   雙峰祭のフィナーレを華々しく飾る一大パフォーマンス！ 普段は別々に活動している団体たちが手を組んで、普段は見ることのできないコラボレーションパフォーマンスを繰り広げます！     今年の後夜祭OCを盛り上げてくれるのは、この人たち！   筑波大学応援部WINS     筑波大学斬桐舞      筑波大学アカペラサークルDoo-Wop     筑波大学ダブルダッチサークルpurplume      星咲講     筑波大学吹奏楽団       {{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/live_broadcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/live_broadcast/</guid>
+      <description>学園祭生中継プロジェクト | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }} {{ template &#34;partials/live_broadcast_logo.html&#34; . }}  {{ template &#34;partials/cyberbox.html&#34; . }} {{ template &#34;partials/cyberhead.html&#34; . }}  学園祭生中継プロジェクトとは   学園祭に興味はあるけれど、遠くて行けない…。学園祭には行くけれど、全日程は行けない…。そんなあなたに朗報です！学園祭生中継プロジェクトでは、学園祭の様子を前夜祭から後夜祭まで余すところ無く配信します。これだけで学園祭のすべてが楽しめます！    {{ template &#34;partials/cyberbox-sp.html&#34; . }} {{ template &#34;partials/cyberhead.html&#34; . }}  学園祭生中継プロジェクトとは   学園祭に興味はあるけれど、遠くて行けない…。学園祭には行くけれど、全日程は行けない…。そんなあなたに朗報です！学園祭生中継プロジェクトでは、学園祭の様子を前夜祭から後夜祭まで余すところ無く配信します。これだけで学園祭のすべてが楽しめます！     {{ template &#34;partials/cyberbox.html&#34; . }} {{ template &#34;partials/cyberhead.html&#34; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/nies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/nies/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    環境化学物質が未来の世代に伝える影響～そのメカニズムを探る～ 国立研究開発法人　国立環境研究所 環境リスク・健康研究センター　病態分子解析研究室  私たちが生活する環境中には様々な化学物質が存在しています。
+本発表ではそれらの化学物質の、これまで知られていなかった未来の世代への影響についてお話します。また、そのメカニズムに関し、特にエピジェネティクスという一般的には聞きなれない言葉の解説をし、国立環境研究所における研究の一部をご紹介します。ご興味のある方は是非お立ち寄りください！ また、常時、国立環境研究所の概要DVDを放映しています。  日時: 11/5　11:00～12:00 11/6　15:00～16:00 担当者: 研究員・岡村　和幸 ※筑波大学大学院OB 平成26年3月　筑波大学大学院　生命環境科学研究科　持続環境学専攻　博士後期課程修了　筑波大学院時代に学んだことをステップとし、研究の道を歩み始めました。 リンク: 国立環境研究所HP https://www.nies.go.jp/ 国立環境研究所　環境リスク・健康研究センター HP http://www.nies.go.jp/risk_health/index.html    国立環境研究所の外観
+  エピジェネティック修飾に関わるヒストンとDNAメチル化の模式図
+上：DNA の高メチル化や抑制型ヒストン修飾の増加によりクロマチン構造が凝集すると、遺伝子発現の活性が抑制されます。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/nourin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/nourin/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    準備中 タイトル --- 筑波大学農林技術センター演習林 下田臨海実験センターで展開されている研究・教育活動の概要をご紹介するとともに、深刻な環境問題である海洋酸性化に関する最新の研究成果をご説明します。
+ 日時: 11/4,11/5　両日とも常に展示しております。 内容:   担当者: 今　孝悦 リンク:  http://www.shimoda.tsukuba.ac.jp/    　---   {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/researches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/researches/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    概要 「つくば研究紹介」は、研究学園都市内の研究機関や、筑波大学内の研究機関をお呼びし、各研究機関が行っている研究の内容や成果を、実演や実物展示を交えて紹介してもらう企画です。「つくば」で行われている最先端の研究に、ぜひ触れて見て下さい！  研究一覧 ”知りたい”が加速する－宇宙・物質・生命の謎を解くKEK－
+   高エネルギー加速器研究機構 11/5 13:00～14:00 11/6 15:00～16:00    世界の食料・農業・環境問題の解決をめざして！
+   国際農林水産業研究センター（JIRCAS） 11/5,6 ともに12:00～13:00    環境化学物質が未来の世代に伝える影響～そのメカニズムを探る～
+   国立研究開発法人　国立環境研究所
+環境リスク・健康研究センター　病態分子解析研究室 11/5 11:00～12:00 11/6 15:00～16:00    LED照明の正確な特性評価を可能にする新しい標準LEDの開発</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/riken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/riken/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    ゲノム•DNA•遺伝子からみた生命科学のこれから 国立研究開発法人理化学研究所 バイオリソースセンター 新規変異マウス研究開発チーム  1850年生気論や創造説が常識でした。1900年メンデル遺伝が再発見されました。1950年DNA二重らせん構造発見3年前。2000年ヒトゲノムが解読されました。2050年は？iPS細胞は？ゲノム編集は？デザイナーベイビーは？ゲノムをキーワードとして考えてみます。
+ 日時: 11/5,11/6　両日とも13:00～14:00 ※DNA抽出実験 先着50名 担当者: DNA抽出実験13：00-14：00先着50名） 権藤　洋一（チームリーダー）両日 福村龍太郎（開発研究員）11/6のみ 牧野　茂（開発研究員）11/5のみ 石塚　祐一（テクニカルスタッフ）両日 小瀧　逸人（テクニカルスタッフ）11/5のみ リンク: 研究チームHP http://www.riken.jp/research/labs/brc/mutagen_genom/ プバイオリソースセンターHP http://ja.brc.riken.jp/    DNAブロック模型（１億倍拡大）に触れてみてください。
+  本物のDNAも展示します。（先着50名まで抽出実験できます。）
+   {{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/sansouken1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/sansouken1/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}{{ template &#34;partials/menu.html&#34; . }}筑波大学委員会開催企画つくば研究紹介日時：本祭1,2日目　10:00~16:00場所：3A207、3A209LED照明の正確な特性評価を可能にする新しい標準LEDの開発産業技術総合研究所計量標準総合センター（NMIJ）　物理計測標準研究部門LED照明製品のエネルギー効率や色を正確に評価するため開発した、明るさの基準となる標準LEDについて、実物の展示やLEDと従来光源との比較を交えて紹介いたします。
+日時:11/5,11/6　両日とも15:00～16:00担当者:中澤由莉（物理計測標準研究部門　光放射標準研究グループ）産総研の担当者リンク:産業技術総合研究所　物理計測標準研究部門https://unit.aist.go.jp/ripm/プレスリリース：可視光全域の波長をカバーする、世界で初めての標準LEDを開発http://www.aist.go.jp/aist_j/press_release/pr2016/pr20160202_2/pr20160202_2.html個人HPhttps://staff.aist.go.jp/takahiro.yamamoto/開発した標準LED
+分光測定に適した標準LEDのスペクトル
+{{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/sansouken2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/sansouken2/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}{{ template &#34;partials/menu.html&#34; . }}筑波大学委員会開催企画つくば研究紹介日時：本祭1,2日目　10:00~16:00場所：3A207、3A209しなやかな血管で健康維持 ～動脈硬化を防ぐ生活習慣とは～産業技術総合研究所情報・人間工学領域　人間情報研究部門 人間環境インタラクション研究グループ循環器疾患の発症予防を目的とし、その発症リスクに関わる循環調節機能の評価に関する研究開発を進めています。また、加齢に伴う循環調節機能低下を予防・改善するための効果的な手法探索を目的とし、身体活動や運動を中心とするライフスタイルが循環調節機能に与える影響やその機序の解明に取り組んでいます。
+今回は、循環器疾患の発症リスクとして注目されている動脈壁のかたさ（動脈スティフネス）に関して、最近報告した「海女さんの血管のしなやかさ」など、習慣的身体活動実施による動脈スティフネスの改善効果に関する成果を紹介します。また、デモンストレーションでは、私たちが研究で用いている超音波エコー装置を使い、実際に皆さんの動脈壁のしなやかさを計測します。日時:11/5,11/6　両日とも11:00～12;:00担当者:菅原　順（人間情報研究部門　人間環境インタラクション研究グループ）東本　翼（人間情報研究部門　人間環境インタラクション研究グループ）リンク:産業技術総合研究所　人間情報研究部門https://staff.aist.go.jp/jun.sugawara/index.html動脈スティフネス計測の様子
+{{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/shimoda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/shimoda/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    臨海施設で展開する海洋生物学の研究最前線 筑波大学・下田臨海実験センター  下田臨海実験センターで展開されている研究・教育活動の概要をご紹介するとともに、深刻な環境問題である海洋酸性化に関する最新の研究成果をご説明します。
+ 日時: 11/5,11/6　両日とも常に展示しております。 担当者: 今　孝悦 リンク:  http://www.shimoda.tsukuba.ac.jp/       {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/sugadaira/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/sugadaira/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    山岳科学に関する研究教育 菅平高原実験センター 農林技術センター演習林  菅平高原実験センターは長野県上田市の標高約1,300mの高冷地に位置し、その立地条件はもとより広い実験地、敷地と施設・設備を活用することにより、生物科学を中心に学際的な自然環境に関連する教育・研究を進めています。農林技術センター演習林はつくばキャンパス内の実験林、長野県野辺山の八ヶ岳・川上演林および静岡県北部の井川演習林の3か所で構成され、森林管理や治山、山岳気象、生物多様性などの教育・研究を進めています。私たち2機関は2017年4月より統合して山岳科学センターとして発足し、日本ではまた確立されていない“山岳科学”の教育・研究の拠点となることを目指しています。本発表では現在私たちが行っている教育・研究に関する活動を紹介します。  日時: 11/5,11/6　両日とも14:00～15:00 内容:   担当者: 津田吉晃　(菅平高原実験センター准教授) 佐藤幸恵　(菅平高原実験センター助教) 門脇正史　(農林技術センター演習林　助教) リンク: 菅平 http://www.sugadaira.tsukuba.ac.jp/   演習林 http://www.nourin.tsukuba.ac.jp/~forest/   　 「井川演習林における森林流域工学の実習風景
+  菅平高原実験センターの山岳草原における調査風景
+     {{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/support_entrance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/support_entrance/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}受験応援企画 | 雙峰祭 | 筑波大学{{ template &#34;partials/menu.html&#34; . }}受験応援企画概要当企画は現役筑波大生と話したりキャンパスツアーを行なったり資料配布をしたりします。
+11月5日、11月6日　10:00~16:003B202,3B203にてキャンパスツアー二つのコースをご用意しております。3B203にて受付を行っておりますので参加を希望される方は予約をお願いします。
+タイムテーブルはこちら図書館探検コース集合場所 (大学概要説明)～図書館(館内見学)～図書館下駐車場(解散)
+大学散策コース集合場所 (大学概要説明)大学内散策(TARAセンター方面へ学内ペデストリアンを移動・ループ道路第３エリア方面へ)～集合場所(解散)
+本企画で行われるキャンパスツアーは、「キャンパスアテンダント」と呼ばれる団体の方が主体で行っております。
+相談員に関して現役の筑波大生が入試や大学生活などの疑問に答えてくれます！
+相談員のシフト表はこちら（PDF）
+閲覧ブース学類ごとのパンフレットや入試要項、受験応援冊子の限定配布を行います！
+リンクを張る予定です{{ template &#34;partials/footer.html&#34; . }}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/taruzake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/taruzake/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 樽酒振る舞い  {{ template &#34;partials/menu.html&#34; . }}  茨城香る、酒の旨味 樽酒振る舞い   樽酒振る舞いでは、茨城県各地の酒造から協賛していただいた日本酒を無料で来場者の方々に配布します。
+筑波大学が共同開発したお酒「桐の華」や、地元つくば市の名酒「霧筑波」や「男女川」などをはじめとし、味、香り様々な酒を配布予定です。全国でも有数の酒造数を誇る茨城県ならではの企画となっています。皆様の来場、心よりお待ちしております。
+11月4日（金）、5日（土）、6日（日）17:00〜20:00
+石の広場、PAテント側（雨天時1H101）にて
+あい
+-- 注意事項
+満二十歳以上の方限定です。
+地酒の配布は一人につき一日一杯です。
+当日は顔写真付きの身分証明書をお持ちください。
+飲酒運転は大変危険です。徒歩や交通機関を利用してお越しください。  &amp;nbsp;
+    (株)笹目宗兵衛商店        二波山松緑/精選    &amp;nbsp;
+   来福酒造(株)     
+  桐の華/純米吟醸 
+     公明/上撰
+   &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016/</guid>
+      <description>TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }} 注目の企画が今年もやってくる！
+この森で輝くのは誰だ？ 7人の候補者の中から筑波大学のミスキャンパス、ミスターキャンパスを決定いたします！ プロフィール・前夜祭パフォーマンスをご覧になった上で、 ミスター部門・ミス部門をそれぞれもっとも魅力あると思う候補者に投票してください
+TSUKUBA COLLECTION 2016の公式twitterはこちら！   前夜祭 11/4(金)19:25-20:25   ①特技披露などの自己パフォーマンス
+②ミス部門・ミスター部門出場者同士によるシチュエーションパフォーマンス お題は当日までのお楽しみ！  後夜祭 11/6(日)19:03-19:23   結果発表・表彰
+ウェディングドレス・タキシードを着用して入場していただきます   場所 UNITEDステージ    後夜祭 SPECIAL GUEST   熊谷恵里子さん
+今年の後夜祭の表彰には、スペシャルゲストをお呼びします！ ぜひお越しください。(後援:株式会社 Climbing Pigs)
+2016年 ミスユニバースジャパン茨城大会グランプリ受賞
+2016年 ミスユニバースジャパン審査員特別賞受賞         投票方法   ①特設Webサイト</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr01/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.01 守谷凪季さん    学類・学年 ：社会工学類3年   出身 ：岩手   所属サークル ：花畑シャーベッツ   趣味 ：スポーツ   アピールポイント ：アンニュイ   コンテストへの意気込み ：精一杯頑張ります     Q&amp;A   特技
+バスケ   マイブーム
+音楽鑑賞   ストレス解消法
+特になし！   好きな食べ物
+からあげ   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr02/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.02 神島駿太郎さん    学類・学年 ：応用理工学類2年   出身 ：神奈川県   所属サークル ：サッカー同好会   趣味 ：サッカー   アピールポイント ：丸いというか、とげがないところ？   コンテストへの意気込み ：盛り上げられるように頑張りやす     Q&amp;A   特技
+けん玉   マイブーム
+特になし。   ストレス解消法
+サッカー、買い物   好きな食べ物
+ラ・フランス   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_mr03/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.03 金久保俊亮さん    学類・学年 ：社会学類1年   出身 ：東京   所属サークル ：TFC、Forest   趣味 ：筋トレ   アピールポイント ：歯並びのきれいさ   コンテストへの意気込み ：少しでもつくコレを盛り上げられれば     Q&amp;A   特技
+サッカー、我慢すること   マイブーム
+過去にハマったドラマをもう一度見返す(古畑任三郎)   ストレス解消法
+寝る   好きな食べ物
+中華料理   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms01/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.01 橋本茉奈さん    学類・学年 ：医学類1年   出身 ：神奈川県   所属サークル ：医学バドミントン部、野生動物研究会   趣味 ：ドラクエ、ポケモン   アピールポイント ：鼻が低い？   コンテストへの意気込み ：みんなと友達になれるように頑張ります     Q&amp;A   特技
+変顔、ピアノ、ギター、体操   マイブーム
+ミッフィーのグッズを集める   ストレス解消法
+乃木坂のせっかちなかたつむりという曲のライブ映像を見る   好きな食べ物
+明太子、森永牛乳プリン   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms02/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.02 戸川千勢さん    学類・学年 ：比較文化学類1年   出身 ：埼玉県   所属サークル ：E.L.L、僕らの夏休みproject   趣味 ：歌うこと   アピールポイント ：人懐っこいところ   コンテストへの意気込み ：ミスコンをきっかけに新たに色んな人に知り合えるのが楽しみです     Q&amp;A   特技
+歌うこと   マイブーム
+通販サイトを見ること。見るだけです。笑   ストレス解消法
+歌う！あとは美味しい物を食べます。   好きな食べ物
+オムライス   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms03/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.03 小松史奈さん    学類・学年 ：心理学類1年   出身 ：神奈川県   所属サークル ：バレー同好会、医学バレー部   趣味 ：音楽、映画   アピールポイント ：よく笑うこと   コンテストへの意気込み ：ディズニー行きたい     Q&amp;A   特技
+歌   マイブーム
+バレーボール   ストレス解消法
+カラオケ、寝る   好きな食べ物
+チキンカツ   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_ms04/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} Entry No.04 宮脇幸那さん    学類・学年 ：障害科学類2年   出身 ：東京都   所属サークル ：体育会男子バスケットボール部   趣味 ：映画鑑賞   アピールポイント ：体が丈夫なこと   コンテストへの意気込み ：つくコレを盛り上げられるように頑張ります！     Q&amp;A   特技
+フードファイト   マイブーム
+グラノーラ   ストレス解消法
+美味しい物をお腹いっぱい食べてたくさん寝ること   好きな食べ物
+お寿司   好きな異性の有名人</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_result/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_result/</guid>
+      <description>TSUKUBA COLLECTION 2016 結果発表 | 雙峰祭 | 筑波大学 {{ template &#34;partials/special_head.html&#34; . }}  h2 { font-weight: 700; } p { font-size: 27px; font-weight: 700; font-family: serif; } .img-wrapper { width: 70%; margin: 0 auto; } #message { text-align: center; margin-top: 5rem; margin-bottom: 5rem; }    {{ template &#34;partials/menu.html&#34; . }} 結果発表  ミスキャンパス賞 Entry No.1橋本茉奈
+ミスターキャンパス賞 Entry No.1守谷凪季
+特別賞 Entry No.3 小松史奈
+投票してくださった方、誠にありがとうございました！！
+ {{ template &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_voting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_collection2016_voting/</guid>
+      <description>  {{ template &#34;partials/special_head.html&#34; . }} TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} 準備中 {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_juku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/tsukuba_juku/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} 筑波塾 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }}  お知らせ 社会学類　土井隆義先生の講義「青少年犯罪と幸福観のリアル～犯罪社会学の理論から考える～」の動画が公開されました。 講義の動画はこちら  筑波塾とは？  筑波大学の学生が普段、受けている授業を来場者の皆さんが体験できる企画です。
+1回の授業は講義75分、質問時間15分の計90分です。※75分の講義は筑波大学の授業1回と同じ時間です。  対象者は？  雙峰祭に来場された方なら誰でも参加可能です。  授業に間に合わない・・・  筑波塾の授業は途中入室、途中退室可能ですが、授業の開始時間はよく確認して遅刻しないように気を付けてください。   注意事項  教室内では、携帯電話の電源を切るか、マナーモードに設定してください。
+授業中の飲食、喫煙はご遠慮下さい。
+授業を録画、録音するのは禁止です。
+途中入室、途中退室の際は、お静かにお願い致します。    日程 -- 11月5日(土)   11：00～12：30  池内淳　3A203にて
+「本と読書と書店と図書館の未来について」    13：00～14：30  小林正美　3A213にて
+「実験で体験する大学の物理化学」    15：00～16：30  土井隆義　3A203にて</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/yui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/yui/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }}   {{ template &#34;partials/menu.html&#34; . }}  筑波大学委員会開催企画  つくば研究紹介   日時： 本祭1,2日目　10:00~16:00   場所： 3A207、3A209    人工衛星「ITF-2」で繋がろう！ 筑波大学「結」プロジェクト  こんにちは！
+筑波大学の人工衛星開発団体「結」プロジェクトです。 私たち「結」プロジェクトでは、学生が主体となり超小型人工衛星の開発を行っています。今年2016年3月に、二号機となるITF-2が完成し、今年度中の打ち上げを予定しています。ITF-2では、メインミッションとして人工衛星からの電波受信を通して世界中の人たちが繋がる、「結」ネットワークの構築を目指しています。 本展示では、「結」プロジェクトの活動内容についてご紹介させていただきます。また、どのように電波を受信するのかを知っていただくために、ITF-2でも使用するモールス信号の受信が体験できる展示も用意しています。 この他にも、ITF-2の試作機や3Dプリンタモデルなどの展示も行っていますので、是非お立ち寄りください！  「結」プロジェクトの活動内容の紹介 モールス信号の受信体験 ITF-2試作機や電子基板等の展示 ITF-2の電波受信方法の紹介   日時: 11/5　15:00～16:00 11/6　11:00～12:00 担当者: 「結」プロジェクト各メンバー リンク: 「結」プロジェクトwebページ http://yui.kz.tsukuba.ac.jp/   「結」プロジェクト公式ツイッター @yui_tsukuba   「結」プロジェクト公式facebook https://www.facebook.com/tsukuba.yui.project/      「結」ネットワーク構築の流れ
+  ITF-2フライトモデル</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/special/yuruchara_kikaku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/special/yuruchara_kikaku/</guid>
+      <description>{{ template &#34;partials/special_head.html&#34; . }} ゆるキャラ®️企画 | 雙峰祭 | 筑波大学   {{ template &#34;partials/menu.html&#34; . }} ゆるキャラ®️企画
+  茨城県のゆるキャラ®️達が雙峰祭に遊びにやってくる！！！ 今年のゆるキャラ®️企画では学内の練り歩きと教室展示をおこないます。 練り歩きは第一エリアを中心におこないます。 教室展示ではゆるキャラ ®️とその地域の紹介を行うだけでなく、クイズやミニゲームなどもおこなってます。 ミニゲームに参加してくれた方には賞品を贈呈いたします。 また教室にはゆるキャラ ®️がいるので写真撮影や触れ合うことが可能です。 みんなでお祭りをもりあげよう！！！  時間   11月5,6日 10:00~16:30   場所   ・練り歩き　第一エリア ・教室展示　1E205     来てくれるゆるキャラ®️たち    カミスココくん  好きな食べ物　揚げもち＆ナタデココ
+チャームポイント　茨城県の形をした頭＆流し目 神栖市公式HP↓
+http://www.city.kamisu.ibaraki.jp/       つちまる  好きな食べ物　カレー＆常陸秋そば</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/sponsors/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 企業の方へ-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 企業の方へ 協賛企業一覧 第42回筑波大学学園祭「雙峰祭」を開催するにあたり、多くの企業・団体よりご支援をいただきました。 感謝の意を込めて、ご支援いただいた企業・団体をご紹介いたします。 （順不同・敬称略）  株式会社ホテル山久 医療法人飯岡医院 CoCo壱番屋つくば桜店 株式会社椿屋商事 学園中央自動車学校 株式会社イセブ ファミリーマートつくば春日四丁目店 大学前薬局 北方園 つくばドライビングスクール とんかつ千香華味 moi!kka 有限会社コート・ダジュール 百香亭筑波大学店 割烹一の矢 ドルフ プラスワンガーデン 半田屋つくば大学前店 株式会社広報社DESIGN STUDIO T. 茶の木村園 大成産業株式会社 麺や 蒼 株式会社塚越産業 Ibaraki BMW つくば支店 東京背脂 銀の豚 さくら歯科医院 株式会社マイハウス つくば店 中島モーターサイクル 株式会社日活アド・エイジェンシー 有限会社柿本ハウジング 有限会社タクミ不動産 アサクラスポーツ株式会社 香陵住販株式会社 つくば天久保店 株式会社ピーターパン 吾妻店 もつ鍋 番長 株式会社カスミ テクノパーク桜店 ローソンストア100筑波大学前店 トヨタカローラ南茨城株式会社つくば店 Suplis hair design 株式会社筑波商事つくば支店 株式会社教育情報サービス 株式会社ヤングガンズ ガトー・プーリア 春日歯科医院 株式会社ホテルグランド東雲 居酒屋くぼや おふくろ弁当 一誠商事株式会社 有限会社松見タクシー 印晶堂 株式会社アジア住販 筑波大学前店 株式会社筑波地所つくば賃貸サービス ウォーク株式会社大学前通り店 レイアウト9 学園店 ミニストップつくば栗原店 筑波大学内郵便局 サロン デ サン ダイワロイネットホテルつくば 株式会社トヨタレンタリース茨城つくば学園店 藻バイオテクノロジーズ株式会社 佐竹理容室 桂不動産株式会社筑波大学前支店 スタジオ ソング・サイクル 株式会社常陽コーポレーション ちょっきんなべ ローソンつくば天久保三丁目店 有限会社ジールサロン 菱光建設株式会社 株式会社万全商事 株式会社トゥーマーカープロダクツ トゥールズ筑波大学売店 株式会社ライブパワーIKB ファシリティーズTSUKUBA 株式会社土浦自動車学校 竹園セントラル歯科医院 株式会社秀和不動産 青山がらり 山形・県南自動車学校 ゼビオ株式会社スパースポーツゼビオドームつくば店 広沢土地倉庫株式会社 伝説のすた丼屋 つくば大学店 株式会社志ち乃 株式会社イーゲル 株式会社総合資格 井上サイクル 関東鉄道株式会社 CYBER DYNE株式会社 株式会社大宮レジャーセンタースペースクリエイト自遊空間つくば南大通り店 株式会社リクルートコミュニケーションズ インテリジェントネット株式会社 筑波大学第三学群食堂 武田塾つくば校 筑波都市整備株式会社（つくばクレオスクエア） 合同会社SIMPSON TRADING クーロンヌつくば 株式会社ナガセ 東進ハイスクールつくば校 株式会社エイチ・アイ・エス 茨城空港利用促進等協議会 エポックぽてと株式会社 自衛隊茨城地方協力本部 学生コミュニティサロン「エンタク！」 紳士服のコナカ つくば学園大穂店 株式会社ライトオン 関彰商事株式会社 オークラフロンティアホテルつくば みなと運送株式会社　つくば支店 株式会社井上フード 上総屋不動産株式会社 筑波大学前支店    有限会社ホテルニューオーツカ 株式会社白鳳堂 株式会社明色化粧品 株式会社阪本高生堂 UQコミュニケーションズ株式会社 ヒガシマル醤油株式会社 東京フード株式会社 マルコメ株式会社 大島椿株式会社 株式会社ドリテック 株式会社おやつカンパニー 株式会社日本一ソフトウェア 株式会社セガ・ライブクリエイション 東京ジョイポリス 江口製菓株式会社 イオンシネマ守谷 株式会社金冠堂 TSUTAYAつくば桜店 ニベア花王株式会社 株式会社新横浜ラーメン博物館 すみだ水族館 栃木県なかがわ水遊園 小川珈琲株式会社 ブルドッグソース株式会社 GALA湯沢スキー場 よーじやグループ 株式会社國枝商店 株式会社京樽 株式会社ダイガクコーポレーション 大学ボウル土浦本店 株式会社東急リゾートサービスハンターマウンテン塩原 いなば食品株式会社 株式会社キャメル鉛筆製作所 COFFEE HOUSE とむとむ デンタルプロ株式会社 エスケー石鹸株式会社 公益財団法人つくば科学万博記念財団 水戸市植物公園 江崎グリコ株式会社 株式会社アイコク 大塚製薬株式会社つくば出張所 大塚食品株式会社 駿台柏校 株式会社ヤマサキ 株式会社沼屋本店 株式会社チェリーテラス TBCグループ株式会社 株式会社ピクニック 玉露園食品工業株式会社 カタギ食品株式会社 株式会社ラグノオささき 浅草花やしき 株式会社ウエニ貿易 相田みつを美術館 コーセー化粧品販売株式会社 水戸支店 株式会社尾瀬岩鞍リゾート 株式会社ユニマットライフつくば営業所 イセ食品株式会社 株式会社ダリヤ 株式会社オーブ 株式会社鹿島アントラーズ・エフ・シー 玉川衛材株式会社 トランセンドジャパン ライオン菓子株式会社 赤穂化成株式会社東京支店 久光製薬株式会社 キタノ商事株式会社 株式会社志満秀 株式会社美十 Skullcandy Japan合同会社 ハタ鉱泉株式会社 セメダイン株式会社 株式会社ディー・アップ ナカバヤシ株式会社 NPO法人I.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/timetable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/timetable/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} ステージタイムテーブル-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} ステージタイムテーブル ステージ紹介はこちら
+11/4
+前夜祭    11/5
+本祭1日目    11/6
+本祭2日目   後夜祭           {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/today_news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/today_news/</guid>
+      <description>  {{ template &#34;partials/head.html&#34; . }} 当日情報-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 当日情報 当日情報  {{ template &#34;partials/today_news.html&#34; . }}     {{ template &#34;partials/side-column.html&#34; . }}  {{ template &#34;partials/footer.html&#34; . }}   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/traffic_regulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/traffic_regulation/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 交通規制、自転車撤去-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 交通規制、自転車撤去 進入禁止の道路について  学園祭期間中(11月4日(金)～11月6日(日))は大学施設につながるいくつかの道路や企画団体が荷物の搬入に利用する道路を進入禁止といたします。一般の来場者様、企画団体の皆様は以下の地図を参考にして、ご来訪ください。
+ただし、以下に該当する場合の通行は規制いたしません。  緊急車両 教職員や研究室等に関係する学生の車両 大学施設の関係者や業者などの車両 学実委の業務に関わる車両 障がい者が乗り降りする車両  第一エリア、第二・第三エリア周辺  大学会館エリア、体芸エリア周辺  一方通行の道路について  学園祭期間中(11月4日(金)～11月6日(日))は、企画団体が荷物を搬入するために下記の道路を東側から西側への一方通行とします。また、この道路を使用できる車両を以下のように制限いたします。 規制期間  11月4日(金) 9:00～22:30   11月5日(土)、6日(日) 7:30～22:00   対象となる道路 第一エリアと中央図書館間の道路   また企画団体は上記の道路に加え、以下の道路も荷物の搬入に使用できます。この道路を使用できる車両は上記の道路と同様になります。  5C棟前の連絡通路   この道路は、企画団体の皆様のみご利用いただけます。  ※企画団体が荷物を搬入・搬出する際の注意
+停車する際は 右側車線に入り、搬入・搬出は速やかに行ってください。また搬入・搬出時間は10分前後としてください。それ以上の停車は違反とみなし、それ以後の通行を禁止することがあります。通路の安全確保にご協力ください。  使用可能な車両一覧  緊急車両（西側からの通行も許可します） 教職員や研究室等に関係する学生の車両 大学施設の関係者や業者等の車両 学実委の業務に関わる車両 障がい者が乗り降りする車両 通行証を持った車両   ※通行証は企画団体にのみ発行されます。一般の来場者様の車両は上記の道路を通行することができませんのでお気をつけください。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/venue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/venue/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 会場案内-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }} 会場案内 会場案内図     公共交通機関でお越しの方へ つくばエクスプレスつくば駅6番バス乗り場より筑波大学循環バスで約15分、大学会館前または松美池でお降りください。 ※春日エリア及び医学エリアでは学園祭を開催しておりません。間違ってお降りにならないようにご注意ください。  お車でお越しの方へ 常磐自動車道桜土浦インターより約20分
+体芸エリア南駐車場  第一エリア東駐車場  
+第三エリア北駐車場  全体図    駐輪場 中央図書館西  体芸食堂南   総合研究棟B棟  生物農林学系統AB周辺   人間系学系棟AB棟間 松美池前桐葉橋下    案内所  学園祭実行委員会では4つのエリアそれぞれに案内所を設置しております。ご不明な点、お困りの点等がございましたら、オレンジ色のテントの案内所までお越しください。または、蛍光オレンジのジャンパーを着用している実行委員にお気軽に声をかけてください。 各案内所の場所は、上図の「会場案内図」の「iのマーク」をご参照ください。 休憩所  日本最大級の会場にて実施される雙峰祭。
+会場内で休息を取りたくなることでしょう。 学園祭実行委員会では、会場内各所に休憩所をご用意しております。 会場内を巡った後に一息ついて、次に行く企画について考える際や、 屋台で買った食べ物を召し上がる際にぜひご利用ください。 三か所の休憩所は、以下の時間で運営しております。 ① 11月4日(金)
+3A棟粉とクリーム前：15:30～20:00 ② 11月5日(土)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sohosai.tsukuba.ac.jp/zenyasai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sohosai.tsukuba.ac.jp/zenyasai/</guid>
+      <description>{{ template &#34;partials/head.html&#34; . }} 前夜祭オープニングセレモニー・企画アピール-雙峰祭公式webサイト   {{ template &#34;partials/menu.html&#34; . }}  前夜祭セレモニー 企画参加団体による華やかなパフォーマンスをお届けします。
+「和」というテーマに沿ったステージとなっております。 ぜひご覧下さい！！ 日時・場所  日時 11月4日（金）  オープニング部門18:15～18:55 エンディング部門20:25～20:30 場所 UNITEDステージ  オープニング部門 筑波大学斬桐舞 私たち斬桐舞は年齢、性別、国籍、障害・経験の有無にかかわらず、みんなでよさこいを楽しむことをコンセプトに活動しています。この学園祭が現執行代最後の演舞になります。前夜祭、本祭2日目のUNITEDステージ、そして後夜祭の3つのステージできりきりらしい笑顔と元気にあふれる演舞をお届けします。1年間の集大成をぜひご覧ください！
+筑波能・狂言研究会 今回わたしたちが舞う演目(えんもく)は土蜘蛛(つちぐも)です。これは病床(びょうしょう)に伏(ふ)している源頼光(みなもとのよりみつ)に、妖怪土蜘蛛が襲いかかってきますが、頼光の刀『膝丸』(ひざまる)で退治してしまうという物語です。この機会にみなさんに能の魅力を感じていただければ幸いです！
+筑波大学落語研究会 筑波大学落語研究会代表、120世紀少年です。石の広場に爆笑の渦を巻き起こします！ぜひ会場にお越しください！！
+筑波大学ダブルダッチサークルpurplume 今回のテーマ『和』は私たちダブルダッチサークルにとって新しい挑戦ですが、みなさんを盛り上げるよう精一杯頑張りますので、応援よろしくお願いします！！
+筑波大学アカペラサークルDoo-Wop 我々は声のみで音楽を奏でる、『アカペラ』で様々なジャンルの曲を演奏しています。前夜祭ではサカナクションの『新宝島』、whiteberryの『夏祭り』を披露いたします。男性6人でお届けするハーモニーを、ぜひ会場でお楽しみください！！
+エンディング部門 全前夜祭企画参加者による最高のフィナーレ
+ 企画アピール 企画団体による企画宣伝フェスティバル！
+30秒間に込められた熱い思い…！ 日時・場所  日時 11月4日（金）18:55～19:25 場所 UNITEDステージ  参加企画   ステージ企画 筑波大学学園祭ライブ2016 purplume ダブルダッチパフォーマンス YOSAKOIソーラン演舞 鹿島神流 第20回松美記念 BIGBAND Jazz Live Pectoralsスペシャルステージ！      第一エリア Doo-Wop教室ステージ 童話café 焼肉　最高 のうりんむら（肉） つくふぉーカフェ      第二・三エリア 管弦カフェ ラジオ番組TURN公開収録！ むし虫ミュージアム～覗いてみよう虫世界～ 青森県人会 ツクバダインショー 筑れーぷ つくば鳥人間の巣 きのこごはん 縁日-earth16 festival-     会館・体芸エリア ねこたちのカフェ 道端ケルト音楽会 春日ビーフストロガノフ 霜月茶会     委員会開催企画 夢幻迷宮からの脱出 ゆるキャラ®企画 つくば研究紹介 筑波塾 雙峰祭グランプリ2016    {{ template &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

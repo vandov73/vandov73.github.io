@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>お知らせ-雙峰祭公式webサイト</title>
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <h2>お知らせ</h2>
+            <div class="panel-outside-wrapper">
+                <div class="panel-inside-wrapper">
+                    <div class="panel panel-orange">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">新しいお知らせ・更新情報</h3>
+                        </div>
+                        <ul class="panel-body">
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2017.9.29</span></h4>
+    <p>第42回筑波大学学園祭「雙峰祭」は終了しました。第43回筑波大学学園祭「雙峰祭」については<a href="/">こちら</a>をご覧ください。</p>
+  </li>
+  <li>
+    <img src="images/gaku_green.svg">
+    <h4>企画・学内の方へ<span class="date">2017.5.18</span></h4>
+    <p><a href="https://sohosai17.online.sohosai.com/">雙峰祭オンラインシステム</a>を企画・学内ページにて公開しています。</p>
+  </li>
+  <li>
+    <img src="images/gaku_green.svg">
+    <h4>企画・学内の方へ<span class="date">2017.5.18</span></h4>
+    <p><a href="inside">企画・学内ページ</a>にて、募集要項やお知らせなどを順次掲載しています。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.21</span></h4>
+    <p><a href="https://doc.co/XmJvjh">筑波塾での土井隆義先生の講義の動画</a>が公開されました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.08</span></h4>
+    <p><a href="special/tsukuba_collection2016_result/">TSUKUBA COLLECTION2016の結果発表</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.08</span></h4>
+    <p>協賛品の回収についての<a href="documents/案内文.pdf">お知らせ</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.08</span></h4>
+    <p><a href="gallery">当日写真集</a>に本祭2日目写真を追加しました。</p>
+  </li>
+
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.05</span></h4>
+    <p><a href="gallery">当日写真集</a>に本祭1日目写真を追加しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.04</span></h4>
+    <p><a href="gallery">当日写真集</a>に前夜祭写真を追加しました。</p>
+  </li>
+
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.04</span></h4>
+    <p><a href="traffic_regulation">交通規制、自転車撤去</a>に「合図花火・打ち上げ花火について」を追加しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.03</span></h4>
+    <p><a href="traffic_regulation">交通規制、自転車撤去</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.03</span></h4>
+    <p><a href="special/researches">つくば研究紹介</a>、<a href="special/support_entrance">受験応援企画</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.01</span></h4>
+    <p><a href="images/pamphlet_correction.png">パンフレット訂正資料</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.11.01</span></h4>
+    <p><a href="zenyasai">前夜祭オープニングセレモニー・企画アピール</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.31</span></h4>
+    <p><a href="special/taruzake">樽酒振る舞い</a>、<a href="special/grand_prix">雙峰祭グランプリ2016</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.31</span></h4>
+    <p><a href="special/kouyasai_oc">後夜祭オープニングセレモニー</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.31</span></h4>
+    <p><a href="special/yuruchara_kikaku">ゆるキャラ®企画</a>、<a href="special/live_broadcast">学園祭生中継プロジェクト</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.29</span></h4>
+    <p><a href="special/escape">夢幻迷宮からの脱出</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.27</span></h4>
+    <p><a href="special/S_gotochi">S級ご当地通り</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.19</span></h4>
+    <p><a href="special/tsukuba_juku">筑波塾特設ページ</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.07</span></h4>
+    <p><a href="special/kodomo_kikaku">子ども企画特設ページ</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.10.02</span></h4>
+    <p><a href="special/tsukuba_collection2016">TSUKUBA COLLECTION 2016特設ページ</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.09.28</span></h4>
+    <p><a href="special/comedy_live">つくばお笑いライブ2016特設ページ</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.09.28</span></h4>
+    <p><a href="history">雙峰祭ヒストリー</a>を公開しました。</p>
+  </li>
+  <li>
+    <img src="images/rai_icon.svg">
+    <h4>ご来場の方へ<span class="date">2016.09.28</span></h4>
+    <p>第42回筑波大学学園祭雙峰祭HPを公開しました。</p>
+  </li>
+</ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

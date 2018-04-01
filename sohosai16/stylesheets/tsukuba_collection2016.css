@@ -1,0 +1,319 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    color: #333;
+    font-family: メイリオ, 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+    font-family: serif;
+}
+
+body {
+    background-color: #EFEBDA;
+}
+
+h2 {
+    font-family: serif;
+    color: #135E5A;
+    font-weight: 500;
+}
+
+.topimg {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.introduction {
+    font-size: 2vw;
+    background-color: #EFEBDA;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+    color: #333;
+}
+
+.introduction a {
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+.schedule {
+    overflow: hidden;
+    background-color: #D7E88E;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+}
+
+.schedule .head {
+    font-family: serif;
+    font-weight: 400;
+}
+
+.schedule .title {
+    font-size: 3.5vw;
+    bottom: 0;
+}
+
+.schedule .date {
+    font-family: serif;
+    font-size: 2vw;
+    padding-left: 0.5vw;
+    vertical-align: bottom;
+}
+
+.schedule p {
+    float: left;
+    padding-top: 1vw;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 1.6vw;
+    line-height: 3.5vw;
+    padding-right: 4vw;
+}
+
+.schedule .place {
+    float: none;
+    text-align: center;
+    font-family: serif;
+    font-size: 3vw;
+    padding-top: 2vw;
+    padding-right: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.matsuri {
+    overflow: hidden;
+}
+
+.zenyasai {
+    width: 50%;
+    float: left;
+}
+
+.koyasai {
+    width: 50%;
+    float: left;
+}
+
+.guest .description {
+    float: left;
+    width: 60%;
+    padding-right: 2vw;
+    margin-top: 2vw;
+}
+
+.guest {
+    background-color: #EFEBDA;
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+
+.description h3 {
+    font-size: 2.5vw;
+    font-family: serif;
+    font-weight: 400;
+    padding-top: 5rem;
+    margin-bottom: 5vw;
+}
+
+.description p {
+    padding-left: 0.5vw;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+    font-family: serif;
+    font-weight: 500;
+}
+
+.guest .img-wrapper {
+    width: 40%;
+    float: left;
+}
+
+.img-wrapper {
+    margin-top: 2vw;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.banners {
+    overflow: hidden;
+}
+
+.banners img:hover {
+    opacity: 0.7;
+    background-color: #fff;
+}
+
+.banners img {
+    float: left;
+    width: 50%;
+}
+
+.voting {
+    background-color: #EFEBDA;
+    padding-top: 5vw;
+}
+
+.voting h4 {
+    font-family: serif;
+    margin-bottom: 1vw;
+    font-size: 3vw;
+}
+
+.voting p {
+    padding-top: 2vw;
+    font-size: 2vw;
+    font-family: serif;
+    padding-bottom: 6vw;
+}
+
+.voting a:hover {
+    text-decoration: none;
+}
+
+.voting a .button:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.button {
+    padding: 1vw;
+    color: white;
+    font-weight: 500;
+    /* border-radius */
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    /* border */
+    border: 1px solid white;
+    text-align: center;
+    /*width: 16.5rem;*/
+    width: 25vw;
+    background-color: red;
+    margin: 0 auto;
+    font-size: 2vw;
+}
+
+.voting h2 {
+    margin-top: 6vw;
+    padding-bottom: 1.2vw;
+}
+
+.candidates {
+    padding-top: 3vw;
+}
+
+.mr {
+    background-color: #C7DDDB;
+}
+
+.ms {
+    background-color: #F1C6CE;
+}
+
+.candidates h2 {
+    padding-top: 60px;
+    margin-top: -60px;
+    padding-bottom: 0.5vw;
+}
+
+.candidates ul {
+    overflow: hidden;
+    padding: 0;
+    padding-bottom: 4vw;
+}
+
+.candidates li {
+    list-style: none;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    margin-top: 2vw;
+}
+
+
+/*
+.candidates li p:hover{
+    color:#fff;
+}
+*/
+
+.candidates li:hover {
+    color: #fff;
+    opacity: 0.9;
+    background-color: #fff;
+}
+
+
+/*
+.candidates li img :hover{
+    opacity:0.6;
+}
+*/
+
+.candidates li img {
+    width: 14vw;
+    float: left;
+}
+
+.candidates li p {
+    float: left;
+    margin: 0;
+    padding-top: 1vw;
+    padding-left: 1.8vw;
+    font-family: serif;
+    font-weight: 600;
+    line-height: 3.8vw;
+    font-size: 2.6vw;
+    color: #333;
+}
+
+.sponsors {
+    background-color: #EFEBDA;
+}
+
+.sponsors h2 {
+    padding-top: 2vw;
+    color: #333;
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.sponsors ul {
+    padding-left: 3vw;
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+    overflow: hidden;
+}
+
+.sponsors li {
+    font-size: 2vw;
+    padding-top: 2vw;
+    width: 45%;
+    padding-right: 3%;
+    margin-right: 2%;
+    float: left;
+    font-family: serif;
+    font-weight: 600;
+    line-height: 2.3vw;
+}
+
+@media(max-width:990px) {
+    .candidates li {
+        float: none;
+        width: 100%;
+    }
+    .sponsors li {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media(max-width:630px) {}
+
+@media(max-width:480px) {}
+
+@media(max-width:365px) {}

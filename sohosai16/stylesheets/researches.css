@@ -1,0 +1,274 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(220, 221, 221);
+}
+
+h1,
+h2,
+h3,
+p,
+table,
+dl {
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 3.0rem;
+}
+
+
+/********以下ヘッダ内**********************************/
+
+
+/*header {
+  background-color:rgb(56,54,53);
+  width:100%;
+  color:rgb(246,239,229);
+  padding-top:0.5rem;
+}*/
+
+header h1 {
+  font-size: 4.0rem;
+  text-decoration: underline;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.clearfix {
+    margin-top: 6rem;
+}
+
+header a,
+header a:hover,
+header a:active,
+header a:visited {
+    color: rgb(246, 239, 229);
+    text-decoration: none;
+}
+
+.head_str {
+    font-size: 2.0rem;
+    text-align: center;
+    margin: 0 auto;
+}
+/*
+header dl {}
+
+header dl dt {
+    float: left;
+}
+
+*/
+/******************************************/
+
+.overview img {
+    display: block;
+}
+
+.overview {
+    width: 400px;
+    font-size: 1.6rem;
+}
+
+div.all_contents {
+    margin: 70px auto;
+}
+
+section.contents {
+    width: 76%;
+    margin: 30px auto;
+    background-color: rgb(246, 247, 247);
+    padding: 25px;
+}
+
+.contents_box {
+    height: 160px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 1.6rem;
+}
+
+.contents_box dl {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+div.back_blue {
+    background-color: rgb(40, 167, 225);
+}
+
+div.back_orange {
+    background-color: rgb(248, 182, 43);
+}
+
+div.back_green {
+    background-color: rgb(11, 162, 154);
+}
+
+div.back_light_blue {
+    background-color: rgb(152, 213, 229);
+}
+
+div.back_light_orange {
+    background-color: rgb(251, 223, 190);
+}
+
+div.back_light_green {
+    background-color: rgb(149, 210, 210);
+}
+
+p.theme {
+    margin: 5px 0;
+    color: rgb(246, 239, 229);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.researches> div {
+    padding: 0;
+}
+
+.researches p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.researches a:hover,
+.researches a:visited,
+.researches a:active,
+.researches a:link {
+    text-decoration: none;
+}
+
+.researches a:hover div {
+    opacity: 0.7;
+}
+
+
+/******************************************/
+
+.schedule table {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.schedule tr {
+    height: 100px;
+    border: solid 1px;
+    border-color: rgb(220, 221, 221);
+}
+
+.r1 {
+    border: none;
+}
+
+.schedule td {
+    border: none;
+}
+
+.schedule td:nth-child(8n+1) {
+    width: 10%;
+    position: relative;
+    top: 50px;
+    border: none;
+}
+
+.schedule td:nth-child(8n+2) {
+    width: 8%;
+}
+
+.schedule td:nth-child(8n+3) {
+    height: 100px;
+}
+
+.schedule td:nth-child(8n+3) {
+    width: 32%;
+}
+
+.schedule td:nth-child(8n+4) {
+    width: 10%;
+}
+
+.schedule td:nth-child(8n+5) {
+    width: 8%;
+}
+
+.schedule td:nth-child(8n+6) {
+    width: 12%;
+}
+
+.schedule td:nth-child(8n+7) {
+    width: 12%;
+}
+
+.shcedule td:nth-child(8n) {
+    width: 8%;
+}
+
+#cyber {
+    height: 350px;
+    background-color: rgb(152, 213, 229);
+    position: relative;
+    top: 25px;
+}
+
+#riken_poster {
+    height: 400px;
+    background-color: rgb(149, 210, 210);
+}
+
+#other_posters {
+    height: 500px;
+    background-color: rgb(152, 213, 229);
+}
+
+.r2 td:nth-child(3) {
+    background-color: rgb(149, 210, 210);
+}
+
+.r3 td:nth-child(3) {
+    background-color: rgb(251, 223, 190);
+}
+
+.r4 td:nth-child(3) {
+    background-color: rgb(149, 210, 210);
+}
+
+.r5 td:nth-child(3) {
+    background-color: rgb(251, 223, 190);
+}
+
+
+/******************************************/
+
+@media(max-width:991px) {
+    header {
+        text-align: center;
+    }
+    .overview img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    html {
+        font-size: ;
+    }
+    .contents {
+        padding: 10px 10px 20px !important;
+        margin: 5px auto !important;
+        width: 95% !important;
+    }
+    div.all_contents {
+        margin: 10px auto;
+    }
+}

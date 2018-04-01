@@ -1,0 +1,239 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    font-family: メイリオ, 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+body{
+  background-color: #F3EED5;
+}
+header {
+    margin-top: 60px;
+}
+/*#content{
+   position:relative;
+   margin-top: 70;
+}*/
+#index{
+  text-align: center;
+}
+.kodomo_geki{
+  background-image: url(/archives/2016/images/yellow_back.png);
+  overflow:auto;
+  margin-top: 50;
+}
+.pettanko_rari-{
+  clear: both;
+  background-image: url(/archives/2016/images/blue_back.png);
+  overflow:auto;
+  margin-top: 100;
+}
+/*img.rari-{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:0;
+}*/
+img.geki{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4{
+  color: #996633;
+  font-weight: bold;
+  font-size: large;
+}
+.hukudai{
+  color: #996633;
+}
+.infoone{
+  font-size: large;
+}
+.infotwo{
+  font-size: large;
+  margin-bottom: 0;
+}
+.gekitwo p {
+  text-align : left ;
+ }
+ .cen {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     border:0;
+ }
+ img.stanp{
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+ }
+ .kasane{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+ }
+@media screen and (min-width: 1024px) {
+/* 幅が1024以上の場合に適応される */
+  .flowone{
+    float: left;
+    width: 300px;
+  }
+
+  .flowtwo{
+    float: right;
+    width: 300px;
+    margin-bottom: 100;
+  }
+  .gekitwo {
+   width: 60%;
+   margin: 0 auto;
+  }
+  .rari-two{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .kodomo_geki{
+    background-size: cover;
+  }
+  .pettanko_rari-{
+    background-size: cover;
+  }
+  img.rari-{
+    margin-top: 50;
+    width:450px;
+    height:200px;
+  }
+  img.geki{
+    margin-top: 50;
+    width: 400px;
+    height: 150px;
+  }
+  .hukudai{
+    font-size: xx-large;
+  }
+  .cen{
+    width:450px;
+    height:130px;
+  }
+  img.min1{
+    margin-right: 50;
+    width:250px;
+    height:90px;
+  }
+  img.min2{
+    margin-left: 50;
+    width:300px;
+    height:150px;
+  }
+  img.stanp{
+    height: 100px;
+    width: 100px;
+  }
+  .kasane{
+    width: 450px;
+  }
+  .cen{
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width:480px) and ( max-width:1024px) {
+    /*　for iPad 　*/
+  .kodomo_geki{
+    background-size: cover;
+  }
+  .pettanko_rari-{
+    background-size: cover;
+  }
+  .hukudai{
+    font-size: xx-large;
+  }
+  img.geki{
+    width: 300px;
+    height: 120px;
+  }
+  img.rari-{
+    width:340px;
+    height:140px;
+  }
+  img.stanp{
+    height: 70px;
+    width: 70px;
+  }
+  .kasane{
+    width: 300px;
+  }
+  .cen{
+    width:450px;
+    height:130px;
+  }
+  img.min1{
+    margin-right: 50;
+    width:250px;
+    height:90px;
+  }
+  img.min2{
+    margin-left: 50;
+    width:300px;
+    height:150px;
+  }
+  .cen{
+    margin-top: 100;
+  }
+  .naiyou{
+    margin-bottom: 80;
+  }
+}
+@media screen and (max-width:480px) {
+    /* for iPhone Landscape (iPhone 横) */
+    .naiyou{
+      margin-left: 10;
+      margin-right: 10;
+    }
+    .kodomo_geki{
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .pettanko_rari-{
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    img.rari-{
+      width:300px;
+      height:150px;
+    }
+    img.geki{
+      width: 300px;
+      height: 100px;
+    }
+    .hukudai{
+      font-size: x-large;
+    }
+    .cen{
+      width:300px;
+      height:80px;
+    }
+    img.min1{
+      width:120px;
+      height:40px;
+    }
+    img.min2{
+      width:130px;
+      height:60px;
+    }
+    img.stanp{
+      height: 70px;
+      width: 70px;
+    }
+    .kasane{
+      width: 300px;
+    }
+    .cen{
+      width: 280px;
+      margin-top: 70;
+    }
+    .naiyou{
+      margin-bottom: 60;
+    }
+}

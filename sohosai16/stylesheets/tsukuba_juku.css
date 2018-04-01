@@ -1,0 +1,224 @@
+@charset "UTF-8";
+body{
+  background-color: #F3EFE8;
+}
+.juku{
+  text-align: center;
+  margin-top: 10rem;
+  height:100%;
+  width:100%;
+}
+h4{
+  color: khaki;
+}
+.graph{
+  margin-bottom: 6rem;
+}
+.about{
+  background-color: #187B60;
+  height:100%;
+  width:100%;
+  overflow: auto;
+  color: khaki;
+}
+.box{
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+.left{
+  height:100%;
+}
+.right {
+  height:100%;
+}
+.schedule{
+  clear: both;
+  height:100%;
+  width:100%;
+}
+.nittei{
+  font-size: xx-large;
+  text-align: center;
+}
+.day{
+  font-size: large;
+}
+.saturday{
+  height:100%;
+}
+.time{
+  clear: both;
+  float: left;
+  height:100%;
+}
+.sunday{
+  height:100%;
+}
+.add{
+  clear: both;
+  margin-left: 80%;
+}
+.listpc{
+  background-color: #187B60;
+  height:100%;
+  width:100%;
+  overflow: auto;
+  color: white;
+}
+.listphone{
+  background-color: #187B60;
+  height:100%;
+  width:100%;
+  overflow: auto;
+  color: white;
+}
+
+.large{
+  margin-top: 5%;
+  font-size: xx-large;
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+.face{
+  width:200px;
+  height:200px;
+}
+.intro{
+  font-size: large;
+  font-weight: 300;
+}
+.migi{
+  height:100%;
+  padding-right: 3%;
+}
+.hidari{
+  height:100%;
+  padding-left: 3%;
+}
+.set{
+  overflow: hidden;
+  margin-right: 3%;
+}
+.naiyou{
+  overflow: hidden;
+}
+.retu{
+  overflow: hidden;
+}
+@media screen and (min-width:769px) {
+  .listphone{
+    display: none;
+  }
+  .sp{
+    margin-bottom: 3%;
+  }
+  .graph{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .left{
+    float: left;
+    width:48%;
+    padding-bottom: 3%;
+  }
+  .right{
+    float:right;
+    width:48%;
+  }
+  .saturday{
+    float: left;
+    width:50%;
+  }
+  .sunday{
+    float: right;
+    width:50%;
+  }
+  .migi{
+    float: right;
+    width:48%;
+  }
+  .hidari{
+    float: left;
+    width:48%;
+  }
+  .set{
+    float: left;
+  }
+  .retu{
+    padding-bottom: 3%;
+  }
+  .box{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .time{
+    width:150px;
+  }
+}
+@media screen and (max-width:768px) and (min-width:426px) {
+  .listpc{
+    display: none;
+  }
+  .graph{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .hidari{
+    padding-right: 3%;
+  }
+  .migi{
+    clear: both;
+    padding-left: 3%;
+  }
+  .time{
+    width:150px;
+  }
+  .set{
+    float: left;
+    padding-bottom: 3%;
+  }
+  .box{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .bottom{
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width:425px){
+  .listpc{
+    display: none;
+  }
+  .graph{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .migi{
+    padding-left: 3%;
+  }
+  .hidari{
+    padding-right:3%;
+  }
+  .up{
+    vertical-align: top;
+/*    width: 30%*/
+  }
+/*  .down{
+    width: 70%;
+  }*/
+  .box{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .time{
+    width:120px;
+  }
+  .bottom{
+    margin-bottom: 5%;
+  }
+}
+a {
+  color: khaki;
+  text-decoration: underline;
+
+}

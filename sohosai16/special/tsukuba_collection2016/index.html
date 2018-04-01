@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TSUKUBA COLLECTION 2016 | 雙峰祭 | 筑波大学</title>
+    <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <link href="stylesheets/tsukuba_collection2016.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <img src="images/tsukuba_collection_top.jpg" class="topimg">
+    <div class="introduction">
+        <div class="container">
+            注目の企画が今年もやってくる！<br> この森で輝くのは誰だ？
+            <br><br> 7人の候補者の中から筑波大学のミスキャンパス、ミスターキャンパスを決定いたします！
+            <br><br> プロフィール・前夜祭パフォーマンスをご覧になった上で、
+            <br> ミスター部門・ミス部門をそれぞれもっとも魅力あると思う候補者に投票してください<br><br> TSUKUBA COLLECTION 2016の公式twitterは<a href="https://twitter.com/TC2016_sohosai?lang=ja">こちら</a>！
+        </div>
+    </div>
+    <div class="schedule">
+        <div class="container">
+            <div class="matsuri">
+                <div class="zenyasai">
+                    <div class="head">
+                        <span class="title">前夜祭</span>
+                        <span class="date">11/4(金)19:25-20:25</span>
+                    </div>
+                    <p>
+                        ①特技披露などの自己パフォーマンス<br> ②ミス部門・ミスター部門出場者同士によるシチュエーションパフォーマンス
+                        <br> お題は当日までのお楽しみ！
+                    </p>
+                </div>
+                <div class="koyasai">
+                    <div class="head">
+                        <span class="title">後夜祭</span>
+                        <span class="date">11/6(日)19:03-19:23</span>
+                    </div>
+                    <p>
+                        結果発表・表彰<br> ウェディングドレス・タキシードを着用して入場していただきます
+                    </p>
+                </div>
+            </div>
+            <p class="place">
+                場所 UNITEDステージ
+            </p>
+        </div>
+    </div>
+    <div class="guest">
+        <div class="container">
+            <div class="description">
+                <h3>
+            後夜祭 SPECIAL GUEST
+            </h3>
+                <p>
+                    熊谷恵里子さん<br> 今年の後夜祭の表彰には、スペシャルゲストをお呼びします！
+                    <br> ぜひお越しください。(後援:株式会社 Climbing Pigs)<br> 2016年 ミスユニバースジャパン茨城大会グランプリ受賞<br> 2016年 ミスユニバースジャパン審査員特別賞受賞
+                </p>
+            </div>
+            <div class="img-wrapper">
+                <img src="images/guest.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="banners">
+        <a href="special/tsukuba_collection2016#mr_part">
+            <img src="images/mr-banner.png">
+        </a>
+        <a href="special/tsukuba_collection2016#ms_part">
+            <img src="images/ms-banner.png">
+        </a>
+    </div>
+    <div class="voting">
+        <div class="container">
+            <h4>
+            投票方法
+        </h4>
+            <p>
+                ①特設Webサイト<br> 本サイトの投票フォームに必要事項を記入し送信してください。
+                <br> 投票期間：10/14～本祭2日目(11/6)16:00
+                <br> 「投票はこちら」ボタンをクリックし、空メールを送信してください。
+                <br> 投票は1人1日1票となっております。(メールを複数回送信しても、1日1回カウントされます)
+                <br><br> ②投票用紙
+                <br> 中央図書館の「TSUKUBA COLLECTION 2016投票所」にて投票用紙に記入の上 、設置されている投票箱に提出してください。
+                <br> 投票期間:前夜祭開始後(15:30)〜本祭2日目15:00
+            </p>
+            <a href="special/tsukuba_collection2016_result">
+                <div class="button">
+                    結果発表はこちら
+                </div>
+            </a>
+            <h2>
+            候補者一覧
+        </h2>
+        </div>
+    </div>
+    <div class="candidates mr">
+        <div class="container">
+            <h2 id="mr_part">Mr部門</h2>
+            <ul>
+                <a href="special/tsukuba_collection2016_mr01">
+                    <li>
+                        <img src="images/mr01.jpg">
+                        <p>
+                            Entry No.1<br> 守谷凪季さん
+                            <br> 社会工学類3年
+                        </p>
+                    </li>
+                </a>
+                <a href="special/tsukuba_collection2016_mr02">
+                    <li>
+                        <img src="images/mr02.jpg">
+                        <p>
+                            Entry No.2<br> 神島駿太郎さん
+                            <br> 応用理工学類2年
+                        </p>
+                    </li>
+                </a>
+                <a href="special/tsukuba_collection2016_mr03">
+                    <li>
+                        <img src="images/mr03.jpg">
+                        <p>
+                            Entry No.3<br> 金久保俊亮さん
+                            <br> 社会学類1年
+                        </p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="candidates ms">
+        <div class="container">
+            <h2 id="ms_part">Ms部門</h2>
+            <ul>
+                <a href="special/tsukuba_collection2016_ms01">
+                    <li>
+                        <img src="images/ms01.jpg">
+                        <p>
+                            Entry No.1<br> 橋本茉奈さん
+                            <br> 医学類1年
+                        </p>
+                    </li>
+                </a>
+                <a href="special/tsukuba_collection2016_ms02">
+                    <li>
+                        <img src="images/ms02.jpg">
+                        <p>
+                            Entry No.2<br> 戸川千勢さん
+                            <br> 比較文化学類1年
+                        </p>
+                    </li>
+                </a>
+                <a href="special/tsukuba_collection2016_ms03">
+                    <li>
+                        <img src="images/ms03.jpg">
+                        <p>
+                            Entry No.3<br> 小松史奈さん
+                            <br> 心理学類1年
+                        </p>
+                    </li>
+                </a>
+                <a href="special/tsukuba_collection2016_ms04">
+                    <li>
+                        <img src="images/ms04.jpg">
+                        <p>
+                            Entry No.4<br> 宮脇幸那さん
+                            <br> 障害科学類2年
+                        </p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="sponsors">
+        <div class="container">
+            <h2>協賛企業一覧</h2>
+            <ul>
+                <li>株式会社エイジ・エンタテイメント</li>
+                <li>株式会社Climbing Pigs</li>
+                <li>美容室メビウス</li>
+                <li>芦田ブライダル</li>
+                <li>桂由美フランチャイズブライダルつくば</li>
+                <li>アンシャンテ ナチュレ ドレスショップ ミュールつくば</li>
+                <li>株式会社クロノファクトリー</li>
+                <li>株式会社オーブ</li>
+                <li>NPO法人I.H.C.Nカレッジフェスタ事務局本部</li>
+                <li>イオンエンターテイメント株式会社</li>
+                <li>大島椿株式会社</li>
+                <li>株式会社ナチュラピュリファイ研究所</li>
+                <li>よーじやグループ株式会社國枝商店</li>
+                <li>コーセー化粧品販売会社 水戸支店</li>
+                <li>中野製薬株式会社</li>
+                <li>株式会社ノーブル・エイペックス</li>
+                <li>株式会社レスポートサックジャパン</li>
+            </ul>
+        </div>
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

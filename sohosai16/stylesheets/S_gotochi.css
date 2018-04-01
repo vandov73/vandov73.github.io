@@ -1,0 +1,82 @@
+@charset "UTF-8"
+html{
+  margin:0px;
+  font-size:20px;
+}
+body{
+  background-color: rgb(244,240,225);
+  margin:0px;
+  font-family:"ヒラギノ游ゴシック" , "游ゴシック";
+  overflow-x: hidden;
+}
+.logo{
+  width:100%;
+}
+.contents{
+  width:72%;
+  margin: auto;
+}
+@media screen and (min-width:481px){
+  .logo{
+    margin-top:6rem;
+  }
+  h1{
+    font-size:1.75rem;
+  }
+  p{
+    margin-left:1rem;
+    font-size:1.65rem;
+  }
+  dt{
+    font-size: 1.8rem;
+  }
+  dd{
+    font-size:1.5rem;
+  }
+}
+@media screen and (max-width:480px){
+  .logo{
+    margin-top:4rem;
+  }
+  .contents {
+    width:100%;
+  }
+  html{
+    font-size: 15px;
+    padding-right: 1rem;
+  }
+  .logo{
+    width:160%;
+    margin-left:-30%;
+  }
+  h1{
+    font-size:1.75rem;
+  }
+  p{
+    font-size:1.2rem;
+  }
+  dt{
+    font-size: 1.4rem;
+  }
+  dd{
+    font-size:1.0rem;
+  }
+}
+h1,h2,h3{
+  color:rgb(19,94,90);
+  margin-left:0.5rem;
+  font-weight:bold;
+}
+p{
+  margin-left:1rem;
+}
+
+dt{
+  color:rgb(19,94,90);
+  font-weight: bold;
+  margin-left:1rem;
+}
+dd{
+  margin-bottom:1rem;
+  margin-left:1rem;
+}

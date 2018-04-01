@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/*                   footer                    */
+
+.footer {
+    background-color: #39B29B;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.copyright {
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/*               スマホ用               */
+
+@media(max-width:990px) {
+    .main-column p {
+        padding: 0 10px;
+    }
+    .footer-contact {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 1.5rem;
+    }
+    .adress {
+        text-align: left;
+    }
+    .logo-wrapper {
+        width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-wrapper img {
+        margin: 2rem 0rem;
+        width: 100%;
+        height: auto;
+    }
+    .copyright {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*                 PC用               */
+
+@media(min-width:991px) {
+    .main-column {
+        padding-right: 24px;
+    }
+    .main-content .main-column {
+        padding-right: 0;
+        /*index.htmlのみ*/
+    }
+    .main-column p {
+        padding-right: 0;
+    }
+    .footer-content {
+        overflow: hidden;
+        margin-top: 1.6rem;
+    }
+    .logo-wrapper {
+        float: left;
+        width: 15rem;
+        margin-left: 5rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+    .logo-wrapper img {
+        width: 100%;
+    }
+    .contact {
+        float: left;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        font-weight: 900;
+    }
+    .copyright {
+        font-size: 1.3rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

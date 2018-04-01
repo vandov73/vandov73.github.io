@@ -1,0 +1,412 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <link href="stylesheets/researches.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/research.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+
+    <header>
+        <h2>筑波大学委員会開催企画</h2>
+        <h1>
+        <a href="special/researches">つくば研究紹介</a>
+    </h1>
+        <table class="head_str">
+            <tr>
+                <th>日時：</th>
+                <th>本祭1,2日目　10:00~16:00</th>
+            </tr>
+            <tr>
+                <th>場所：</th>
+                <th>3A207、3A209</th>
+            </tr>
+        </table>
+    </header>
+    <div class="all_contents">
+
+        <section class="contents overview clearfix">
+            <h2>概要</h2>
+
+                <p>「つくば研究紹介」は、研究学園都市内の研究機関や、筑波大学内の研究機関をお呼びし、各研究機関が行っている研究の内容や成果を、実演や実物展示を交えて紹介してもらう企画です。「つくば」で行われている最先端の研究に、ぜひ触れて見て下さい！
+                </p>
+
+        </section>
+
+        <section class="contents researches clearfix">
+            <h2>研究一覧</h2>
+
+
+
+            <div class="col-md-4 col-sm-4">
+                <a href="special/kek">
+                    <div class="contents_box back_blue">
+                        <p class="theme">”知りたい”が加速する－宇宙・物質・生命の謎を解くKEK－</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_blue">
+                    <dl>
+                        <dt>高エネルギー加速器研究機構</dt>
+                        <dd>11/5 13:00～14:00</dd>
+                        <dd>11/6 15:00～16:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/JIRCAS">
+                    <div class="contents_box back_orange">
+                        <p class="theme">世界の食料・農業・環境問題の解決をめざして！</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_orange">
+                    <dl>
+                        <dt>国際農林水産業研究センター（JIRCAS）</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに12:00～13:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/nies">
+                    <div class="contents_box back_green">
+                        <p class="theme">環境化学物質が未来の世代に伝える影響～そのメカニズムを探る～</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_green">
+                    <dl>
+                        <dt>国立研究開発法人　国立環境研究所<br>
+            環境リスク・健康研究センター　病態分子解析研究室</dt>
+                        <dd>11/5 11:00～12:00</dd>
+                        <dd>11/6 15:00～16:00</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="special/sansouken1">
+                    <div class="contents_box back_orange">
+                        <p class="theme">LED照明の正確な特性評価を可能にする新しい標準LEDの開発</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_orange">
+                    <dl>
+                        <dt>産業技術総合研究所 計量標準総合センター（NMIJ）<br>
+              物理計測標準研究部門</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに15:00～16:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/sansouken2">
+                    <div class="contents_box back_green">
+                        <p class="theme">しなやかな血管で健康維持 ～動脈硬化を防ぐ生活習慣とは～</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_green">
+                    <dl>
+                        <dt>産業技術総合研究所情報・人間工学領域　人間情報研究部門<br>
+              人間環境インタラクション研究グループ</dt>
+                        <dd>11/5,6</dd>
+                        <dd>11:00～12:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/FFPRI">
+                    <div class="contents_box back_blue">
+                        <p class="theme">高性能マイクを用いた新しいシロアリ検出法</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_blue">
+                    <dl>
+                        <dt>国立研究開発法人森林総合研究所<br>
+              木材研究部門木材改質研究領域、構造研究利用領域</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに13:00～14:00</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="special/NIMS">
+                    <div class="contents_box back_green">
+                        <p class="theme">安全で安心な暮らしの実現に貢献する最先端のナノテク研究</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_green">
+                    <dl>
+                        <dt>物質・材料研究機構（NIMS）<br>
+              国際ナノアーキテクトニクス研究拠点（MANA）</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに12:00～13:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/riken">
+                    <div class="contents_box back_blue">
+                        <p class="theme">ゲノム•DNA•遺伝子からみた生命科学のこれから</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_blue">
+                    <dl>
+                        <dt>国立研究開発法人理化学研究所<br>
+              バイオリソースセンター 新規変異マウス研究開発チーム</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに13:00～14:00</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/CiRfSE1">
+                    <div class="contents_box back_orange">
+                        <p class="theme">宇宙の歴史の暗黒部分を解明する/触媒は世界を変える！/排熱を刈り取る低コスト熱電発電素子</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_orange">
+                    <dl>
+                        <dt>筑波大学数理物質融合科学センター (CiRfSE)</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに10:00～11:00</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="special/cybernics">
+                    <div class="contents_box back_orange">
+                        <p class="theme">重介護ゼロ社会を実現するサイバニクス！</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_orange">
+                    <dl>
+                        <dt>サイバニクス研究センター</dt>
+                        <dd>11/5,6</dd>
+                        <dd>ともに10:30～,11:30～,12:30～,13:30～,14:30～</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <a href="special/shimoda">
+                    <div class="contents_box back_green">
+                        <p class="theme">臨海施設で展開する海洋生物学の研究最前線</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_green">
+                    <dl>
+                        <dt>筑波大学下田臨海実験センター
+          <dd>11/5,6　両日とも常に展示しております。</dl>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <a href="special/sugadaira">
+        <div class="contents_box back_orange">
+        <p class="theme">山岳科学に関する研究教育</p>
+        </div></a>
+        <div class="contents_box back_light_orange">
+          <dl>
+            <dt>筑波大学菅平高原実験センター</dt>
+            <dt>筑波大学農林技術センター演習林</dt>
+                        <dd>11/5,6</dd>
+                        <dd>両日とも14:00～15:00</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="special/yui">
+                    <div class="contents_box back_blue">
+                        <p class="theme">人工衛星「ITF-2」で繋がろう！</p>
+                    </div>
+                </a>
+                <div class="contents_box back_light_blue">
+                    <dl>
+                        <dt>筑波大学「結」プロジェクト</dt>
+                        <dd>11/5　15:00～16:00</dd>
+                        <dd>11/6　11:00～12:00</dd>
+                    </dl>
+                </div>
+            </div>
+        
+
+        </section>
+        
+      
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

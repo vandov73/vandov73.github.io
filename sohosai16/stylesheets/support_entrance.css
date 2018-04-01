@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+  background-color: #125634;
+}
+
+
+
+.container2{
+
+ padding-top:60px;
+
+}
+h1 {
+  font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  margin: 2rem auto;
+}
+
+h2, h3, p {
+  padding: ;
+  font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 23px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.inner a, .inner a:visited, .inner a:hover ,
+.inner a:link{
+  color: rgb(64,33,15)!important;
+  text-decoration: underline;
+}
+
+.main_container {
+  background-color: rgb(228,219,202);
+  padding: 5px 80px;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+  color: rgb(64,33,15);
+  font-family: "ヒラギノ明朝 Pro W3","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+.inner {
+  background-color: rgb(201,188,156);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.hoge {
+  float: right;
+}
+
+.cource {
+  border-top: 1px solid rosybrown;
+  padding: 10px 0;
+}
+
+.cource img {
+  height: auto;
+  width: 50%;
+  display: block;
+}
+
+img.shift_b {
+  background-color: white;
+  width: 100%;
+}
+
+img.shift_ex {
+  background-color: white;
+  width: 50%;
+}
+
+@media (max-width:991px) {
+ .container {
+   width: 100%;
+ }
+
+ .hoge {
+   float: left;
+ }
+
+ header {
+   max-width: 900px;
+   width: 100%;
+ }
+ .cource img.photo {
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  display: block;
+}
+ .main_container {
+   padding: 1px 5px;
+   max-width: 900px;
+ }
+  img.shift_b {
+    width: 100%;
+  }
+  img.shift_ex {
+    width: 50%;
+  }
+}
+
+@media (max-width:600px){
+  .inner {
+    padding: 10px;
+  }
+}

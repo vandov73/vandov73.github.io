@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="../">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name=”robots” content=”noindex,nofollow”>
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-23123187-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <title>注意事項-雙峰祭公式webサイト</title>
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <div class="container">
+        <div class="main-column" style="margin-top:8rem">
+            <h2>注意事項</h2>
+            <h3>酒類の取り扱い</h3>
+            <p>
+                今年度の学園祭においては、全企画による酒類の販売及び配布を禁止しております。また、企画団体・来場者の方による学内への酒類の持ち込みもご遠慮いただいております。酒類に関するトラブルを未然に防ぎ、来場されたすべての方々に気持ちよく学園祭を楽しんでいただくために、何卒ご理解とご協力をお願いいたします。
+            </p>
+            <h3>分煙</h3>
+            <p>学園祭期間中、全ての参加者の方にとって過ごしやすい空間を作るために分煙をお願いしております。喫煙スペースを各エリアに設置しておりますので、そちらをご利用ください。
+                <br>場所：人間系学系A棟裏、3B棟喫煙ルーム、1B棟1階横喫煙所、大学会館郵便局裏、5C棟北
+                <br>喫煙スペースの場所は、<a href="venue/#annai" class="textlink">こちら</a>の地図に記載しております。
+            </p>
+            <h3>ごみの分別について</h3>
+            <p>雙峰祭では、以下の８項目にわたる分別を行っています。来場者の皆様にもご協力をお願いいたします。</p>
+            <table class="attention">
+                <tr>
+                    <td class="gomi">燃やせるごみ</td>
+                    <td>使い捨て食器・エコ食器のフィルム・トレー・わりばし・紙類・ビニール袋・プラスチック・ラップ・竹串・セロファン・紙パック・ゴム製品・飲料用以外のペットボトル等のキャップ・ペットボトルラベル　etc.</td>
+                </tr>
+                <tr>
+                    <td width="120">生ごみ</td>
+                    <td>食べ残し　etc.</td>
+                </tr>
+                <tr>
+                    <td width="120">空きかん</td>
+                    <td>アルミ缶・スチール缶・缶詰の缶　etc.</td>
+                </tr>
+                <tr>
+                    <td width="120">空きびん</td>
+                    <td>飲料用の瓶</td>
+                </tr>
+                <tr>
+                    <td width="120">ペットボトル</td>
+                    <td>ペットボトル</td>
+                </tr>
+                <tr>
+                    <td width="120">ペットボトルキャップ</td>
+                    <td>飲料用のペットボトルのキャップ</td>
+                </tr>
+                <tr>
+                    <td width="120">燃やせないごみ</td>
+                    <td>銀紙・アルミホイル・穴を空けたスプレー缶・瓶のふた・カイロ・金属類・サイリウム　etc.</td>
+                </tr>
+                <tr>
+                    <td width="120">エコ食器</td>
+                    <td>エコ食器のフィルムをはがしたもの</td>
+                </tr>
+            </table>
+            <p>今年もペットボトルの分別回収を徹底させます。ラベルははがして「燃やせるごみ」、キャップは「ペットボトルキャップ」の専用のごみ箱へ分別お願いします。
+                <br>当日使用可能なごみ箱の詳しい場所については、エリア別企画紹介のごみ箱マークをご覧ください。雨天時・強風時におきましては、ごみ箱の位置を変更または撤去します。ご理解のほどよろしくお願いいたします。
+            </p>
+            <br>
+            <h3>エコ食器</h3>
+            <p>学実委では雙峰祭をより環境に配慮したものにするために、企画団体にエコ食器の利用を呼びかけています。エコ食器とは表面にフィルムが貼ってある容器です（写真①）。<br> 使用後はそのフィルムを剥がし、フィルムは燃やせるゴミ、容器はエコ食器回収BOXへ分別します。回収された容器はリサイクルセンターで原料として再利用されます。このようにエコ食器は環境にやさしい仕組みとなっています。 ぜひ、回収にご協力ください。
+                <br> 回収方法
+                <br> ➀エコ食器の上についている小さいつまみを折ります。（写真➁）
+                <br> ➁つまみをつかんで表面の透明なフィルムを剥がします。（写真➂）
+                <br> ➂容器は「エコ食器回収ＢＯＸ」、フィルムは「燃やせるゴミ」に捨ててください。
+                <br>
+                <table width="100%">
+                    <td align="left" valign="top">
+                        <h4 align="">写真①</h4>
+                        <img src="images/ZU1.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="center" valign="top">
+
+                        <h4>写真②</h4>
+                        <img src="images/ZU2.png" style="max-width:90%;height:auto;">
+                    </td>
+                    <td align="right" valign="top">
+
+                        <h4>写真③</h4>
+                        <img src="images/ZU3.png" style="max-width:90%;height:auto;">
+                    </td>
+                </table>
+
+                <p>
+
+                    <h3>交通規制、自転車撤去</h3>
+                    <p>交通規制、自転車撤去については<a href="traffic_regulation" class="textlink">こちら</a></p>
+
+                    <h3>雨天時・強風時</h3>
+                    <p>雨天時・強風時は安全面・衛生面を考慮し、ステージ企画の実施や屋外における調理品の販売、及び場合によっては屋外企画の実施を中止する場合がございます。皆様の安全のため、ご理解とご協力をお願いいたします。<br> 雨天時・強風時の企画実施状況は、各案内所・当日放送でご連絡いたします。
+                    </p>
+
+                    <h3>緊急時</h3>
+                    <p>急病人・負傷者が発生した場合は、巡回中の実行委員か最寄りの案内所にお知らせください。<br> 地震等の災害が発生した場合は、実行委員と大学教職員が避難誘導を行いますので、その指示に従って避難してください。避難場所は、会場案内図の<a href="venue/#annai" class="textlink">こちら</a>をご参照ください。
+                    </p>
+        </div>
+        <!DOCTYPE html>
+<html lang="ja">
+
+<div class="side-column">
+    <div class="twitter">
+        <a class="twitter-timeline" data-width="500" data-height="300" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/sohosai">Tweets by sohosai</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="embedded-inner">
+        <a class="twitter-timeline" data-theme="light" data-link-color="#fab81e" id="twitter-widget-0" href="https://twitter.com/sohosai" data-border-color="#39B29B" data-widget-id="638208236156379136" data-chrome="nofooter noheader" data-tweet-limit="1" data-height="400">Tweets by sohosai</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+
+        </script>
+    </div>
+    <div class="banner-small">
+        <a href="https://sohosai17.online.sohosai.com">
+            <img src="images/sos.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="venue">
+            <img src="images/venue-bn.jpg">
+        </a>
+    </div>
+    <div class="banner-small">
+        <a href="timetable">
+            <img src="images/stage-bn.jpg">
+        </a>
+    </div>
+</div>
+
+</html>
+
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+<base href="/archives/2016/">
+<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<meta name="google-site-verification" content="xGtHtNfOIP4YvukwxIGRzLdcID4_tXCCwzAL63qoawU" />
+<link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/menu.css" type="text/css">
+<link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="scripts/base.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.js'></script>
+
+    <link href="stylesheets/researches.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/research.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="topbar">
+    <p id="open">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="opened()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <p id="close">
+        <a href="" class="topbarlg">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <a onclick="closed()" id="menubtn"><img src="img/menu.svg" width="22">MENU</a>
+    </p>
+    <div id="menu" style="overflow:auto;">
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+
+        <a onclick="toggleSubmenu('sub2','menu2')">
+            <p id="menu2">雙峰祭とは<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub2">
+            <a href="about#sohosai-intro">
+                <p>雙峰祭紹介</p>
+            </a>
+            <a href="about#sohosai-lastyear">
+                <p>昨年の様子</p>
+            </a>
+            <a href="about#sohosai-digest">
+                <p>ダイジェスト</p>
+            </a>
+            <a href="history">
+                <p>雙峰祭の歴史</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub1','menu1')">
+            <p id="menu1">開催概要<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub1">
+            <a href="outline#date-hold">
+                <p>開催日程</p>
+            </a>
+            <a href="outline#mascot-and-theme">
+                <p>マスキャラ・テーマ</p>
+            </a>
+            <a href="outline#words-of-chairman">
+                <p>委員長挨拶</p>
+            </a>
+        </div>
+
+        <a onclick="toggleSubmenu('sub3','menu3')">
+            <p id="menu3">企画案内<img src="img/arrow_right.svg" width="20" style="padding-left=200px;"></p>
+        </a>
+        <div class="subsection nodisplay" id="sub3">
+            <a href="kikaku#eventsearch">
+                <p>企画検索</p>
+            </a>
+            <a href="kikaku#officialevent">
+                <p>委員会開催企画</p>
+            </a>
+            <a href="kikaku#stageintro">
+                <p>ステージ紹介</p>
+            </a>
+            <a href="area_guide">
+                <p>雙峰祭エリアガイド</p>
+            </a>
+        </div>
+
+        <a href="venue">
+            <p>会場案内</p>
+        </a>
+        <a href="attention">
+            <p>注意事項</p>
+        </a>
+        <a href="contact">
+            <p>お問い合わせ</p>
+        </a>
+        <a href="inside">
+            <p>企画・学内の方へ</p>
+        </a>
+    </div>
+    <div class="container">
+        <a href="">
+            <img src="images/logo.png" class="toplg">
+        </a>
+        <div class="topnav">
+            <a href="about" class="topbtn">
+                <p>雙峰祭とは</p>
+            </a>
+            <a href="outline" class="topbtn">
+                <p>開催概要</p>
+            </a>
+            <a href="kikaku" class="topbtn">
+                <p>企画案内</p>
+            </a>
+            <a href="venue" class="topbtn">
+                <p>会場案内</p>
+            </a>
+            <a href="attention" class="topbtn">
+                <p>注意事項</p>
+            </a>
+            <a href="contact" class="topbtn">
+                <p>お問い合わせ</p>
+            </a>
+            <a href="inside" class="topbtn">
+                <p>企画•学内の方へ</p>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    
+    
+
+</script>
+
+    <header>
+        <h2>筑波大学委員会開催企画</h2>
+        <h1>
+            <a href="special/researches">つくば研究紹介</a>
+        </h1>
+        <table class="head_str">
+            <tr>
+                <th>日時：</th>
+                <th>本祭1,2日目　10:00~16:00</th>
+            </tr>
+            <tr>
+                <th>場所：</th>
+                <th>3A207、3A209</th>
+            </tr>
+        </table>
+    </header>
+    <div class="all_contents">
+        <section class="contents overview clearfix">
+
+          <h1>宇宙の歴史の暗黒部分を解明する</h1>
+          <h1>触媒は世界を変える！/排熱を刈り取る低コスト熱電発電素子</h1>
+          <h2>筑波大学数理物質融合科学センター (CiRfSE)</h2>
+
+          <div>
+                <p>CiRfSE宇宙史拠点では、南極望遠鏡を用いた暗黒銀河の研究、ロケット実験による宇宙背景ニュートリノの探索、CERN LHC加速器を用いた質量起源のヒッグス粒子の研究、クォークグルオンプラズマの研究、宇宙元素合成の研究、の5大プロジェクトを推進し、ビッグバンから生命発生に至る宇宙史の解明と、暗黒物質、暗黒銀河の謎の解決を目指している。
+                  <br>CO2を有用化合物に変換して削減する技術や燃料電池などの水素社会を構築するための科学技術において常に触媒が登場する。CiRfSE環境エネルギー材料拠点では、基礎科学に基づいた触媒設計に取り組んでいる。また、二次電池技術を転用した新しいタイプの熱電変換素子（二次電池型熱発電）を提案している。従来型の熱発電方式と原理が異なり、無限の可能性を秘めている。</p>
+                <dl>
+                    <dt>日時:</dt>
+                    <dd>11/4,11/5　10:00〜11:00</dd>
+
+                    <dt>担当者:</dt>
+                    <dd>江角晋一（准教授）</dd>
+                    <dd>杉浦哲郎（Ｄ１）</dd>
+                    <dd>青山遼（Ｄ１）</dd>
+                    <dd>武内勇司(准教授)</dd>
+                    <dd>八木俊輔（Ｍ２)</dd>
+                    <dd>中井直正(教授)</dd>
+                    <dd>新田冬夢（助教）</dd>
+                    <dd>永井誠(研究員)</dd>
+                    <dd> 光遠（Ｍ１）</dd>
+                    <dd>渋谷陸（Ｄ２）</dd>
+                    <dd>白石一真（Ｍ１）</dd>
+                    <dd>福住勇矢（Ｍ２）</dd>
+                    <dd>金谷和至（教授）</dd>
+                    <dd>
+                    <dt>リンク:</dt>
+                    <dd>数理物質融合科学センター
+                        <a href=" http://www.pas.tsukuba.ac.jp/~CiRfSE/">
+            http://www.pas.tsukuba.ac.jp/~CiRfSE/
+            </a>
+                    </dd>
+                    <dd>COBNAD宇宙背景ニュートリノ探索ロケット実験
+                        <a href=" http://hep.px.tsukuba.ac.jp/COBAND/">
+            http://hep.px.tsukuba.ac.jp/COBAND/
+            </a>
+                    </dd>
+                    <dd>南極望遠鏡
+                        <a href=" http://www.px.tsukuba.ac.jp/~nakai/astroobs/antarctica.html">
+            http://www.px.tsukuba.ac.jp/~nakai/astroobs/antarctica.html
+            </a>
+                    </dd>
+                </dl>
+                <div class="clearfix">
+                    <div class="col-md-6">
+
+                          <div class="img-wrapper">
+                              <img src="images/CiRfSE-1.png" class="yui1" >
+                          </div>
+                          <p>数理物質融合科学センター 宇宙史国際研究拠点</p>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="img-wrapper">
+                              <img src="images/CiRfSE-2.png" class="yui2">
+                          </div>
+                          <p>数理物質融合科学センター 環境エネルギー材料研究拠点</p>
+                      </div>
+                    </div>
+            </div>　--->
+        </section>
+    </div>
+    <!DOCTYPE html>
+<html lang="ja">
+
+<body>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-wrapper">
+                    <img src="images/logo.svg">
+                </div>
+                <div class="footer-contact">
+                    <table>
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:<img style="height:16px;"src="images/mail.svg"></td>
+                        </tr>
+                        <tr>
+                            <td>TEL/FAX</td>
+                            <td>:029-853-2899</td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td class="adress">:〒305-8577 茨城県つくば市天王台1-1-1 筑波大学 第一エリアC棟1C204</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright©平成28年度筑波大学学園祭実行委員会　All Rights Reserved
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</body>
+
+</html>

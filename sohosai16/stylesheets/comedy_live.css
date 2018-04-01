@@ -1,0 +1,139 @@
+@charset "UTF-8";
+html {
+    font-size: 62.5%;
+    font-family: メイリオ, 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
+header {
+    margin-top: 60px;
+}
+
+#topbar {
+    padding: 0;
+}
+
+#topbar .container {
+    padding: 0;
+}
+
+#topbar .container .topnav {
+    padding: 0;
+}
+
+#topbar p {
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    padding: 1rem;
+}
+
+body p,
+dl {
+    margin: 0.5em 0;
+    font-size: 2rem;
+}
+
+.emp {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#title_box {
+    background-image: url(images/title_bg_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0%;
+}
+
+.bg_red {
+    background-color: #e73828;
+    color: white;
+    text-align: center;
+}
+
+.bg_yel {
+    background-color: #ffe133;
+    color: black;
+    padding: 1rem 10% 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.bg_yel h2 {
+    color: #e73828;
+    font-weight: bold;
+}
+
+.bg_yel h3 {
+    color: #e73828;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+
+article {
+    padding: 4rem 0;
+}
+
+h1#title {
+    color: black;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 3rem;
+    text-shadow: white 2px 2px 0px, white -2px 2px 0px, white 2px -2px 0px, white -2px -2px 0px;
+}
+
+#attention {
+    text-align: left;
+    padding: 1rem 10%;
+}
+
+.nyaos {
+    padding-left: 2rem;
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 100%;
+    }
+    img.col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+    body {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .bg_yel {
+        padding: 0;
+    }
+    article div {
+        padding: 0;
+    }
+    article {
+        padding: 1rem 0;
+    }
+    #attention {
+        padding: 1rem;
+    }
+    .bg_yel {
+        text-align: center;
+    }
+    .nyaos {
+        padding-left: 1rem;
+    }
+}
